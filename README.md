@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Dr. Sarah Wambui Amadi |
+| **LinkedIn** | [sarah-w-amadi](https://www.linkedin.com/in/sarah-w-amadi/) |
+| **Location** | Nairobi, Kenya |
+| **Background** | Health AI Strategist, Pharmacist & Digital Health Expert, Data Systems, Quality Engineering, Public Health Innovation|
+| **Goal** | Lead the largest health-Big Data organisation as a Chief Data Officer |
 
 ---
 
@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7469137384576565248/ | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7477748523678162944/ | https://medium.com/@sarahamadi97/from-civil-service-to-big-data-how-journaling-is-rebuilding-my-future-as-a-chief-data-officer-84895e1bf1ce?postPublishedType=initial |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |

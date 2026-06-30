@@ -21,33 +21,31 @@ You will reuse this in later weeks. So do it properly once.
 
 ---
 
-# Assignment 1. What is something you believe to be true that most people around you would disagree with?
+# Something that I believe to be true that most people around me would disagree with:
 
-### Rules
-
-* No "safe" answers.
-* Must be your real belief (not copied from internet).
-* Minimum 50 words.
-
-**Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
 
-Add your answer here...
+One belief I hold strongly, even if many may disagree, is this:
+
+**No one is born a genius.**
+
+Behind every remarkable achievement is usually a long season of discipline, repetition, learning, failure, correction, and persistence. Excellence is rarely accidental. It is built deliberately over time.
+
+In every project, career, or life pursuit, growth demands continuous effort. We must seek knowledge relentlessly, practice consistently, make mistakes, learn from them, and keep going until what once seemed impossible becomes achievable.
+
+I believe we are all born with a clean slate. What separates people over time is not simply talent, but commitment, consistency, mindset, and the willingness to keep improving when others stop trying.
+
+Potential may be given, but mastery is earned.
 
 ---
 
-# Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
+# The top 3 objective truths I discovered through experimentation and results.
 
 ### Definition
 
 Objective truths do not depend on opinions. They hold true regardless of how people feel.
 
-Write each truth in this format:
-
-**Truth:** (1 sentence)
-
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
 
 ---
 
@@ -55,11 +53,13 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent effort and disciplined repetition can transform weakness into excellence.
 
 ### Evidence from my life
 
-Add your answer here...
+I was once an F student in mathematics until Higher Secondary Level 2. After changing my mindset, surrounding myself with more focused friends, and committing to disciplined study day and night, I eventually became an A student.
+
+This proved to me that intelligence is not fixed. Performance improves when effort, consistency, and the right environment are applied repeatedly over time.
 
 ---
 
@@ -67,11 +67,13 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Persistence creates opportunities that circumstances alone cannot predict.
 
 ### Evidence from my life
 
-Add your answer here...
+I had to drop out of university because I could not afford the fees. Despite the setback, I refused to abandon my dream. I continued working relentlessly, applying for scholarship after scholarship, even after repeated disappointments.
+
+Eventually, one opportunity changed my life. The result taught me that persistence often succeeds where talent, luck, or background initially fail.
 
 ---
 
@@ -79,69 +81,51 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Growth requires the courage to leave comfort and pursue long-term purpose over short-term security.
 
 ### Evidence from my life
 
-Add your answer here...
+I stayed in a job that paid my bills, but deep inside I knew I was meant for something greater. Choosing to leave that stability was painful and financially difficult, but it forced me to rebuild myself with intention.
+
+Today, I am actively building the portfolio and skills needed for my dream career path: becoming a Chief Data Officer. That journey confirmed for me that meaningful success often begins with uncomfortable decisions.
 
 ---
 
-# Assignment 3. What does your 2.0 version look like?
+# What does my 2.0 version look like.
 
-### Instructions
 
-Write as if a journalist is writing about you **3 to 7 years from now** (not 20 years).
 
-**Minimum 300 words.**
+**Sarah Amadi: The Data Executive Who Helped Redefine Healthcare Intelligence in Africa**
 
-### Rules
+By 2032, Sarah Amadi had become one of the most respected voices in Africa’s healthcare data and AI ecosystem. As Chief Data Officer at a FAANG-backed health technology division operating across Africa, she led one of the continent’s largest healthcare intelligence transformation programs, connecting fragmented medical data systems into a unified, AI-powered infrastructure that improved patient outcomes across multiple countries.
 
-* Write in past tense, like it already happened.
-* Don't use "likes to / wants to / hopes to."
-* Use specifics:
+Her journey into executive leadership was anything but conventional.
 
-  * built
-  * shipped
-  * led
-  * published
-  * earned
-  * relocated
-  * contributed
-* Include skills proof:
+Years earlier, Sarah had openly shared how she once struggled academically in mathematics and later transformed herself through relentless discipline and focused learning. That same mindset eventually became the foundation of her career. After overcoming financial hardship that forced her to temporarily leave university, she rebuilt her path through scholarships, continuous education, technical certifications, and an obsession with mastering data systems.
 
-  * projects
-  * portfolios
-  * GitHub
-  * blogs
-  * certifications
-  * job role
-  * leadership
-  * community contribution
-* Add 1–3 images if you can (optional but powerful).
+Industry peers often pointed to her portfolio as one of the strongest examples of intentional career reinvention in Africa’s tech industry.
 
-### Publish It Publicly On Any ONE
+She had built and published multiple healthcare analytics projects focused on predictive modeling, governance frameworks, patient data interoperability, and AI-driven reporting systems. Her GitHub portfolio became widely referenced among aspiring African data professionals because it documented not only polished projects, but also her learning journey from beginner to executive-level strategist.
 
-* LinkedIn
-* Medium
-* WordPress
-* Blogspot
-* Personal blog
-* Portfolio page
+Sarah earned certifications in data analytics, cloud technologies, project management, AI governance, and healthcare information systems. She later contributed to policy discussions surrounding ethical AI implementation and healthcare data governance across emerging African digital health ecosystems.
 
-Include this line:
+Before becoming a CDO, she had led cross-functional analytics teams, shipped enterprise reporting systems, and designed scalable data governance structures for health organizations handling millions of patient records. Her leadership style became known for combining technical precision with human-centered innovation.
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+Outside corporate leadership, Sarah published blogs and thought leadership articles focused on big data, AI ethics, healthcare transformation, and the future of African digital infrastructure. She also mentored young professionals transitioning into data careers, especially women entering AI and analytics.
 
-## Your Article
+Colleagues described her as a leader who transformed adversity into architecture, someone who built systems with the same resilience she once used to rebuild her own life.
 
-Add your answer here...
+Today, her work continues to influence how healthcare organizations across Africa use data not just to store information, but to save lives, predict risk, improve access, and shape the future of intelligent healthcare delivery on the continent.
+
+## Article
+
+Sarah Amadi: The Data Executive Who Helped Redefine Healthcare Intelligence in Africa
 
 ### Public Link
 
-Paste your link here:
 
-`__________________________`
+
+` https://medium.com/@sarahamadi97/sarah-amadi-the-data-executive-who-helped-redefine-healthcare-intelligence-in-africa-eb2f083b1f17 `
 
 ---
 
