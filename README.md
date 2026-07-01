@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 ![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F15-green?style=for-the-badge)
 
-> 👋 **New here?** Read the [submission instructions](./INSTRUCTIONS.md) first — how to fork, fill in, and submit your assignments.
+
 
 ---
 
@@ -54,23 +54,23 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ## My DevOps Stack
 
-*Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+* **My stack:** [Github Link](https://github.com/sarah254-tech/devops-micro-internship-pravinmishra#my-devops-stack)
 
-**Preview — what your full stack looks like:**
+
+**Preview — what my full stack shall look like after completion:**
 
 [![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-bash-scripting/)[![Week 05](./badges/week-05.svg)](./week-05-github/)[![Week 06](./badges/week-06.svg)](./week-06-devops-lifecycle/)[![Week 07](./badges/week-07.svg)](./week-07-aws-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-azure-cloud/)[![Week 09](./badges/week-09.svg)](./week-09-terraform/)[![Week 10](./badges/week-10.svg)](./week-10-ansible/)[![Week 11](./badges/week-11.svg)](./week-11-azure-devops/)[![Week 12](./badges/week-12.svg)](./week-12-docker/)[![Week 13](./badges/week-13.svg)](./week-13-kubernetes/)[![Week 14](./badges/week-14.svg)](./week-14-final-project/)
 
 ---
 
-**Your stack (uncomment each badge as you earn it):**
+**My current stack:**
 
 <!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
 <!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -111,7 +111,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- Week 14 → Final Project / Capstone -->
 <!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
 
-*Complete a week → uncomment the badge → watch your stack grow.*
+
 
 ---
 
@@ -166,6 +166,6 @@ This is not a course. It is an internship-style program — real deployments, re
 If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
-- 🔗 Connect with me on [LinkedIn](#)
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/sarah-w-amadi/)
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com
 - 💬 Join the community: https://discord.pravinmishra.com

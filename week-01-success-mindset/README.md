@@ -4,27 +4,20 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ---
 
-## Purpose (Read This First)
+## Purpose
 
-This week is not motivation homework.
-
-This is you building your **Mindset OS** — the system you will use for the next 5 months (and honestly, for years).
+This is me building my **Mindset OS** — the system I will use for the next 5 months (and honestly, for years).
 
 ### Expectations
 
 * Be honest.
 * Be specific.
 * Be practical.
-* Write like an adult professional: clear sentences, no one-liners.
-
-You will reuse this in later weeks. So do it properly once.
 
 ---
 
-# Something that I believe to be true that most people around me would disagree with:
+# 1. Something that I believe to be true that most people around me would disagree with:
 
-
-## Answer
 
 One belief I hold strongly, even if many may disagree, is this:
 
@@ -40,7 +33,7 @@ Potential may be given, but mastery is earned.
 
 ---
 
-# The top 3 objective truths I discovered through experimentation and results.
+# 2. The top 3 objective truths I discovered through experimentation and results.
 
 ### Definition
 
@@ -91,8 +84,7 @@ Today, I am actively building the portfolio and skills needed for my dream caree
 
 ---
 
-# What does my 2.0 version look like.
-
+# 3. What does my 2.0 version look like.
 
 
 **Sarah Amadi: The Data Executive Who Helped Redefine Healthcare Intelligence in Africa**
@@ -124,54 +116,29 @@ Sarah Amadi: The Data Executive Who Helped Redefine Healthcare Intelligence in A
 ### Public Link
 
 
-
 ` https://medium.com/@sarahamadi97/sarah-amadi-the-data-executive-who-helped-redefine-healthcare-intelligence-in-africa-eb2f083b1f17 `
 
 ---
 
-# Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
+# 4. Have I ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? How did it make me feel?
 
-### Important
-
-You don't need to write the full story.
-
-Focus on the feeling:
-
-* guilt
-* fear
-* shame
-* stress
-* regret
-* numbness
-* etc.
 
 This is about self-awareness, not judgment.
 
-### Answer Format
+### Answer 
 
-**Yes / No**
+**Yes**
 
-If Yes:
+**What emotion did I feel?** 
 
-**What emotion did you feel?** (minimum 50–100 words)
-
-## Answer
-
-Add your answer here...
+I had a deep feeling of guilt and fear because what I did was tied to my career reputation and integrity. This taught me to stand for the truth and nothing but the truth. Guilt and fear has a way of paralyzing your career growth. That constant feeling that you will be caught makes you live in hiding. This makes your visibility blur. 
 
 ---
 
-# Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
+# 5. 10 non-fiction books I plan to read in 2026?
 
-### Rules
 
-* Mention **Title + Author**
-* Any language allowed
-* No fiction novels
-
-### Tip
-
-Choose books that improve:
+**These books fall under the following categories:**
 
 * mindset
 * communication
@@ -183,124 +150,106 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Mountain is You - Brianna Weist-      🔄 My current Read
+<!--[book1](screenshots/Week-01-The%20Mountain%20is%20You.jpeg)-->
+2. The 4 Disciples of Execution - Chriss McChesney, Sean Covey, Jim Huling with  Beverly Walker & Scott Thele 
+<!--[book1](screenshots/Week-02-The%204%20Disciplines%20of%20Execution.jpeg)-->
+3. Deep Work - Cal Newport
+<!--[book1](screenshots/Week-03-Deep%20Work.jpeg)-->
+4. The Book of Five Rings - Miyamoto Musashi translated by Thomas Cleary
+<!--[book1](screenshots/Week-05-The%20Book%20of%20Five%20Rings.jpeg)-->
+5. Atomic habits - James Clear
+<!--[book1](screenshots/Week-04-Atomic%20Habits.jpeg)-->
+6. MindSet — The New Psychology of Success - Carol S. Dweck, PH.D.
+<!--[book1](screenshots/Week-09-Mindset.jpeg)-->
+7. The Psychology of Money — Morgan Housel
+<!--[book1](screenshots/Week-10-The%20Psychology%20of%20Money.jpeg)-->
+8. Extreme Ownership — Jocko Willink & Leif Babin
+<!--[book1](screenshots/Week-07-Extreme%20Ownership.jpeg)-->
+9. So Good They Can't Ignore You — Cal Newport
+<!--[book1](screenshots/Week-06-So%20Good%20They%20Can't%20Ignore%20You.jpeg)-->
+10. Can't Hurt Me — David Goggins
+<!--[book1](screenshots/Week-08-Can't%20Hurt%20Me.jpeg)-->
 
 ---
 
-# Assignment 6. What are the things you will measure regularly in your life and career?
+# 6. The things I will measure regularly in my life and career.
 
-### Rules
-
-List topics only. No need to share numbers.
-
-### Must Include
-
-* Learning / skill
-* Output / proof
-* Health / energy
-* Time / focus
-* Money / finance (personal or business)
-
-### Example
-
-* Learning hours per week
-* Deep work sessions per week
-* Projects shipped / documented
-* Steps / workouts
-* Sleep hours
-* Spending tracker
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week
+* DevOps tools practiced weekly
+* Projects completed and documented
+* GitHub commits per week
+* Deep work sessions per day
+* Screen time and focus tracking
+* Sleep hours per night
+* Daily water intake
+* Exercise or walking sessions per week
+* Monthly spending and savings tracker
+* Networking and LinkedIn engagement
+* Technical articles or notes written
+* Interview preparation sessions
+* Cloud and Linux labs completed
+* Number of books or learning resources completed
 
 ---
 
-# Assignment 7. Brain Dump + 5-Month System Plan
+# 7. Brain Dump + 5-Month System Plan
 
 ## Step 1: Brain Dump (Private)
 
-Do a brain dump of everything in your mind into a notebook.
 
-Examples:
+### Did I Do It?
 
-* Bills
-* Tasks
-* Worries
-* Goals
-* Pending messages
-* Ideas
-* Responsibilities
-
-### Did You Do It?
-
-**Yes / No**
+**Yes**
 
 Answer:
 
-Add your answer here...
+I did a full brain dump of my pending tasks, goals, responsibilities, worries, learning targets, assignments, bills, personal commitments, and ideas. This helped me clear my mind and identify what truly needs my attention during this DevOps internship journey.
 
 ---
 
-## Step 2: Your 5-Month Routine + Focus Blocks
+## Step 2: My 5-Month Routine + Focus Blocks
 
-Create a simple plan you can realistically follow for the next 5 months.
-
-### Weekly Routine
-
-Example:
-
-* Mon–Thu: 60 min deep work
-* Sat: DMI session
-* Sun: Weekly review
 
 #### My Weekly Routine
 
-Add your answer here...
+* Monday – Thursday:
+    * 9:00am – 11:45am → Deep work for studying new DevOps concepts
+    * 1:00pm – 4:00pm → Assignments, labs, and practical sessions
+* Friday:
+    * Revision, documentation, LinkedIn updates, and light practice
+* Saturday:
+    * DMI Sessions and community engagement
+* Sunday:
+    * Family time, rest, and weekly reset
 
 ---
 
 ### Focus Blocks
 
-#### When Will You Do DMI Work? (Days + Time)
+#### When I Will Do DMI Work. (Days + Time)
 
-Add your answer here...
+* Monday to Thursday
+    * 9:00am – 11:45am
+    * 1:00pm – 4:00pm
 
-#### How Many Sessions Per Week?
+#### Number of Sessions Per Week.
 
-Add your answer here...
+* 4 focused study sessions weekly
 
 ---
 
-### Distraction Rules
-
-Examples:
-
-* Phone rules
-* Social media rules
-* Environment setup
 
 #### My Distraction Rules
 
-Add your answer here...
+* Keep my phone on silent mode during focus blocks
+* Reschedule non-urgent calls for after 4:00pm
+* Limit social media usage to after 4:00pm for not more than 1 hour
+* Study in a quiet environment away from distractions
+* Avoid multitasking during deep work sessions
 
 ---
 
@@ -308,28 +257,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Blocking my time and maintaining a strict schedule is very important for my productivity and consistency.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to make or receive phone calls close to my focus block periods, which drains my energy and consumes valuable study time.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will stop answering unnecessary family phone calls during my focus block hours and return calls only after 4:00pm.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
 
-`__________________________`
+[LinkedIn Link](https://www.linkedin.com/posts/sarah-w-amadi/)
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+[LinkedIn Post URL](https://www.linkedin.com/posts/sarah-w-amadi_check-out-this-image-share-7477748520637222913-SoGK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA) 
+
+[Blog / Medium Post URL](https://medium.com/@sarahamadi97/sarah-amadi-the-data-executive-who-helped-redefine-healthcare-intelligence-in-africa-eb2f083b1f17) 
 
 ---
 
