@@ -5,7 +5,12 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 ![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F15-green?style=for-the-badge)
 
+<<<<<<< HEAD
 
+=======
+> 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
+> Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
+>>>>>>> upstream/main
 
 ---
 
