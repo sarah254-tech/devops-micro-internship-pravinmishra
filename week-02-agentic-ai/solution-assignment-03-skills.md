@@ -6,11 +6,11 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will build a local Claude Skills system by creating the `.claude/skills/` folder structure, adding predefined skill files, and executing a real agentic command (`/scaffold-terraform`) to generate infrastructure code. You will also observe how skills enforce tool restrictions and enable controlled automation.
+In this assignment, I built a local Claude Skills system by creating the `.claude/skills/` folder structure, adding predefined skill files, and executed a real agentic command (`/scaffold-terraform`) to generate infrastructure code. I also observed how skills enforce tool restrictions and enable controlled automation.
 
 ---
 
-# Task 1 — Create the Skill Folder Structure
+# Task 1 — Created the Skill Folder Structure
 
 ## Goal
 
@@ -20,11 +20,11 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment3_task1.png)>
 
 ---
 
-# Task 2 — Add the Skill Files
+# Task 2 — Added the Skill Files
 
 ## Goal
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment3_task2a.png)>
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment3_task2b.png)>
 
 ---
 
@@ -54,15 +54,14 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment3_task3a.png)>
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
 
----
+<![Image5](screenshots/Assignment3_task3b.png)>
 
 # Task 4 — Run terraform init and /tf-plan
 
@@ -74,7 +73,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment3_task4.png)>
 
 ---
 
@@ -88,29 +87,27 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
 
-`__________________________`
+`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
 
-`__________________________`
+`https://www.linkedin.com/feed/update/urn:li:ugcPost:7481118060012134400/`
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/skills/` folder created with all 4 skill folders
-- [ ] All skill files placed correctly
-- [ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
-- [ ] `/scaffold-terraform` executed successfully
-- [ ] Terraform files generated inside `terraform/` folder
-- [ ] `terraform init` executed successfully
-- [ ] `/tf-plan` executed and output analyzed by Claude
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
-- [ ] LinkedIn post URL included
+- [✅ ] `.claude/skills/` folder created with all 4 skill folders
+- [✅ ] All skill files placed correctly
+- [✅ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
+- [✅ ] `/scaffold-terraform` executed successfully
+- [✅ ] Terraform files generated inside `terraform/` folder
+- [✅ ] `terraform init` executed successfully
+- [✅ ] `/tf-plan` executed and output analyzed by Claude
+- [✅ ] All required screenshots added
+- [✅ ] GitHub repository URL included
+- [✅ ] LinkedIn post URL included
 
 ---
 
