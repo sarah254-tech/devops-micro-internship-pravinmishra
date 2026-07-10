@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will connect Claude Code to external systems using MCP (Model Context Protocol). You will configure the GitHub MCP server, securely store credentials, verify the connection, and run a live query that proves Claude is accessing real-time GitHub data.
+In this assignment, I connected Claude Code to external systems using MCP (Model Context Protocol). Then, I configured the GitHub MCP server, securely store credentials, verify the connection, and ran a live query that proves Claude is accessing real-time GitHub data.
 
 ---
 
@@ -20,7 +20,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment5_task1.png)>
+<![Image1](screenshots/Assignment5_task1b.png)>
 
 ---
 
@@ -34,7 +35,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment5_task2.png)>
 
 ---
 
@@ -42,13 +43,13 @@ Add your screenshot here.
 
 ## Goal
 
-Store your GitHub token securely in `.claude/settings.local.json` and ensure it is not committed to version control.
+Store my GitHub token securely in `.claude/settings.local.json` and ensure it is not committed to version control.
 
 ### Evidence
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment5_task3.png)>
 
 ---
 
@@ -62,7 +63,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment5_task4.png)>
 
 ---
 
@@ -70,13 +71,13 @@ Add your screenshot here.
 
 ## Goal
 
-Verify MCP functionality by retrieving real-time data from your GitHub account using Claude Code.
+Verify MCP functionality by retrieving real-time data from my GitHub account using Claude Code.
 
 ### Evidence
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment5_task5.png)>
 
 ---
 
@@ -92,9 +93,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
-`__________________________`
+`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
 
 ---
 
@@ -102,21 +101,21 @@ Paste your forked repository URL here:
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [✅ ] `settings.local.json` is added to `.gitignore`
+- [✅ ] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub PAT created with correct scopes (`repo`, `read:user`)
-- [ ] `.mcp.json` created at project root
-- [ ] `.claude/settings.local.json` contains token (hidden in screenshot)
-- [ ] `.claude/settings.local.json` is NOT committed
-- [ ] `/mcp` shows GitHub connection as active
-- [ ] Live GitHub query returns real repository data
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
+- [✅ ] GitHub PAT created with correct scopes (`repo`, `read:user`)
+- [✅ ] `.mcp.json` created at project root
+- [✅ ] `.claude/settings.local.json` contains token (hidden in screenshot)
+- [✅ ] `.claude/settings.local.json` is NOT committed
+- [✅ ] `/mcp` shows GitHub connection as active
+- [✅ ] Live GitHub query returns real repository data
+- [✅ ] All required screenshots added
+- [✅ ] GitHub repository URL included
 
 ---
 

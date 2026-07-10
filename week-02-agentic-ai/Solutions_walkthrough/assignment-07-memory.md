@@ -102,6 +102,7 @@ Store project-specific information that Claude can recall in future sessions.
 
 ```
 Remember the following for all future sessions: The CSS hero section uses a dark gradient from #1a1a2e to #16213e. The mobile breakpoints are 900px, 768px, and 600px. Never suggest adding JavaScript to this project. Save this to your memory file now.
+
 ```
 
 ![memory prompt](./images/ss272.png)

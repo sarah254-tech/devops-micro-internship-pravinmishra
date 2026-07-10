@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will configure safety and control mechanisms for Claude Code using permissions and hooks. You will define team-level command restrictions and implement prompt-level and tool-level hooks to prevent destructive actions before they execute.
+In this assignment, I configured safety and control mechanisms for Claude Code using permissions and hooks. I defined team-level command restrictions and implement prompt-level and tool-level hooks to prevent destructive actions before they execute.
 
 ---
 
@@ -20,7 +20,7 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment6_task1.png)>
 
 ---
 
@@ -34,7 +34,7 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment6_task2.png)>
 
 ---
 
@@ -48,7 +48,7 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment6_task3.png)>
 
 ---
 
@@ -62,7 +62,7 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment6_task4.png)>
 
 ---
 
@@ -76,7 +76,8 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment6_task5a.png)>
+<![Image5](screenshots/Assignment6_task5b.png)>
 
 ---
 
@@ -90,6 +91,8 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
+<![Image6](screenshots/Assignment6_task6.png)>
+
 ---
 
 # Task 7 — Test the PreToolUse Hook
@@ -102,6 +105,9 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
 
+**Disclaimer** /tf-plan was not executed because the AWS credentials are yet to be configured. Therefore, the terraform plan was not built.
+
+<![Image7](screenshots/Assignment6_task7.png)>
 ---
 
 # Task 8 — Test the PostToolUse Logging Hook
@@ -114,8 +120,12 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
+<![Image8](screenshots/Assignment6_task8a.png)>
+
+
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
 
+<![Image9](screenshots/Assignment6_task8b.png)>
 ---
 
 # Submission Instructions
@@ -127,21 +137,28 @@ Your submission must include:
 
 ---
 
+
+## GitHub Repository URL
+
+`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
+
+---
+
 # Completion Checklist
 
-- [ ] `.claude` folder structure created correctly
-- [ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
-- [ ] `pre-tool-guard.sh` created with PreToolUse hook logic
-- [ ] `post-tool-logger.sh` created with PostToolUse logging logic
-- [ ] `settings.json` created with allow and deny permissions
-- [ ] `settings.json` configured to connect all three hooks:
-  - [ ] UserPromptSubmit
-  - [ ] PreToolUse
-  - [ ] PostToolUse
-- [ ] Destructive prompt test shows UserPromptSubmit blocked the request
-- [ ] Terraform destroy command test shows PreToolUse intercepted the command
-- [ ] Terraform validate test shows PostToolUse created the log entry
-- [ ] All required screenshots are captured
+- [✅ ] `.claude` folder structure created correctly
+- [✅ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
+- [✅ ] `pre-tool-guard.sh` created with PreToolUse hook logic
+- [✅ ] `post-tool-logger.sh` created with PostToolUse logging logic
+- [✅ ] `settings.json` created with allow and deny permissions
+- [✅ ] `settings.json` configured to connect all three hooks:
+  - [✅ ] UserPromptSubmit
+  - [✅ ] PreToolUse
+  - [✅ ] PostToolUse
+- [✅ ] Destructive prompt test shows UserPromptSubmit blocked the request
+- [✅] Terraform destroy command test shows PreToolUse intercepted the command
+- [✅ ] Terraform validate test shows PostToolUse created the log entry
+- [✅ ] All required screenshots are captured
 
 ---
 

@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+<![MediumBlogImage](screenshots/MediumBlogWeek2.png)>
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@sarahamadi97/the-future-of-devops-isnt-automation-it-s-agentic-ai-61b0741ed6a1`
 
 ---
 
@@ -92,23 +92,30 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+<![LinkedInImage](screenshots/LinkedIn_Assignment3a.png)>
+<![LinkedInImage](screenshots/LinkedIn_Assignment3b.png)>
+
 
 ---
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
+LinkedIn Post:
+
+`https://www.linkedin.com/feed/update/urn:li:ugcPost:7481118060012134400/`
+
+
+LinkedIn post:
+
+`https://www.linkedin.com/feed/update/urn:li:ugcPost:7481293473346940928/`
+
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/feed/update/urn:li:share:7481297443918295040/`
 
 ---
 
@@ -124,15 +131,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
+* [✅] Blog link added
+* [✅] LinkedIn post link added
+* [✅] Screenshots added to GitHub repo
 
 ---
 

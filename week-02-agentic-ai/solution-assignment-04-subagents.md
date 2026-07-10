@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will build and configure a set of specialized AI subagents inside your project. You will learn how different models and tool permissions define agent behavior, and you will trigger two real agent delegations to analyze security and cost aspects of your Terraform infrastructure.
+In this assignment, I built and configured a set of specialized AI subagents inside my project. I learnt how different models and tool permissions define agent behavior, and triggered two real agent delegations to analyze security and cost aspects of my Terraform infrastructure.
 
 ---
 
@@ -16,11 +16,12 @@ In this assignment, you will build and configure a set of specialized AI subagen
 
 Create the `.claude/agents/` directory and add all required agent files.
 
+
 ### Evidence
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment4_task1.png)>
 
 ---
 
@@ -34,19 +35,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The Haiku LLM model is relatively fast, cost effective ,and preferrably better for tasks that do not require deep thinking.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+ Security auditor is only intended to analyze and report,not to modify code.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+tf-writer uses the inherent moodel of the project to maintain consistency that matches the parent project, also it relys on shared context as it maintains a low configuration overhead. Lastly, because of the reduced cost and latency.
 
 ---
 
@@ -54,13 +55,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment4_task2a.png)>
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment4_task2b.png)>
 
 ---
 
@@ -68,19 +69,19 @@ Add your screenshot here.
 
 ## Goal
 
-Trigger the security auditor agent and analyze the generated security report for your Terraform infrastructure.
+Trigger the security auditor agent and analyzed the generated security report for my Terraform infrastructure.
 
 ### Evidence
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment4_task3a.png)>
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment4_task3b.png)>
 
 ---
 
@@ -88,13 +89,13 @@ Add your screenshot here.
 
 ## Goal
 
-Trigger the cost optimizer agent and review the generated cost optimization report.
+Tigger the cost optimizer agent and reviewed the generated cost optimization report.
 
 ### Evidence
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment4_task4.png)>
 
 ---
 
@@ -110,22 +111,22 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
 
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [✅ ] `.claude/agents/` folder contains all 3 agent files
+- [✅ ] Screenshot 2 shows correct `security-auditor.md` configuration
+- [✅ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [✅ ] All 3 written answers completed 
+- [✅ ] Security auditor executed successfully
+- [✅ ] Cost optimizer executed successfully
+- [✅ ] Security report is visible with findings
+- [✅ ] Cost report is visible with recommendations
+- [✅ ] All required screenshots added
+- [✅ ] GitHub repo updated with agents
 
 ---
 
