@@ -67,14 +67,13 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
 <!-- Week 01 → Success Mindset -->
-[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
+[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
-<! [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)>
+[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux for DevOps -->
-<![![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/)>
-
+![Week 03](./badges/week-03.svg)](./week-03-linux-for-devops/)
 <!-- Week 04 → Bash Scripting -->
 <!-- [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/) -->
 
