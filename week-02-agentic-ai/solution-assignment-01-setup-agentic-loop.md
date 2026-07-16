@@ -20,13 +20,13 @@ Install the Claude Code CLI globally and authenticate it using my Anthropic acco
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-<![Image](screenshots/Assignment1_task1.png)>
+<![Image1](screenshots/Assignment1_task1.png)>
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-<![Image](screenshots/Assignment1_task1b.png)>
+<![Image2](screenshots/Assignment1_task1b.png)>
 
 ---
 
@@ -40,7 +40,7 @@ Fork the provided GitHub repository, cloned it to my local machine, and open it 
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-<![Image](screenshots/Assignment1_task2.png)>
+<![Image3](screenshots/Assignment1_task2.png)>
 
 ---
 
@@ -54,13 +54,13 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-<![Image](screenshots/Assignment1_task3.png)>
+<![Image4](screenshots/Assignment1_task3.png)>
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-<![Image](screenshots/Assignment1_task3b.png)>
+<![Image5](screenshots/Assignment1_task3b.png)>
 
 ---
 
@@ -83,12 +83,12 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [✅ ] Claude Code CLI installed successfully
-- [✅ ] Claude Code authenticated successfully
-- [✅ ] Repository forked successfully
-- [✅ ] Repository cloned and opened in VS Code
-- [✅ ] All required screenshots added
-- [✅ ] GitHub repository URL provided
+- [✅] Claude Code CLI installed successfully
+- [✅] Claude Code authenticated successfully
+- [✅] Repository forked successfully
+- [✅] Repository cloned and opened in VS Code
+- [✅] All required screenshots added
+- [✅] GitHub repository URL provided
 
 ---
 

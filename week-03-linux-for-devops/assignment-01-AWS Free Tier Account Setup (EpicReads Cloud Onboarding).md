@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will create and verify an AWS Free Tier account as part of onboarding EpicReads — an online bookstore moving to the cloud. You will demonstrate an understanding of AWS fundamentals, Free Tier services, and account setup by answering conceptual questions and capturing proof of a working AWS Console login.
+In this assignment, I created and verified an AWS Free Tier account as part of onboarding EpicReads — an online bookstore moving to the cloud. I demonstrated an understanding of AWS fundamentals, Free Tier services, and account setup by answering conceptual questions and capturing proof of a working AWS Console login.
 
 ---
 
@@ -20,19 +20,27 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+    An AWS account is a personal account that gives people access to Amazon's cloud computing platform. It acts as my identity for creating, managing, and using cloud resources e.g virtual servers, storage, databases, and networking services.
+
+    At this stage of the internship, an AWS account is needed because it provides a real cloud environment where I can practice deploying applications, creating virtual machines, automating infrastructure, and learning cloud-based DevOps tools.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+    The AWS Free Tier is a program that allows new AWS customers to use selected AWS services at no cost within specified monthly usage limits. It is designed to help beginners learn and experiment with AWS without paying for common cloud resources.
+
+    They have a standard 6-month Free Tier that begins when you create your AWS account. Some AWS services also include Always Free offers that remain free as long as you stay within the monthly usage limits, while a few services provide short-term free trials(like 3-months).
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+1. Amazon EC2 (Elastic Compute Cloud) – Up to 750 hours per month of a t2.micro or t3.micro instance (depending on the region) during the 6-month Free Tier. This is commonly used to host virtual machines.
+
+2. Amazon S3 (Simple Storage Service) for personal portfolio– Up to 5 GB of Standard Storage, 20,000 GET requests, and 2,000 PUT/COPY/POST/LIST requests per month during the 12-month Free Tier. It is used to store files and application data.
+
+3. Amazon RDS (Relational Database Service) – Up to 750 hours per month of a db.t3.micro or db.t4g.micro Single-AZ database instance (depending on the database engine and region), plus up to 20 GB of database storage during the 12-month Free Tier. It is used to host managed relational databases such as MySQL and PostgreSQL.
 
 ---
 
@@ -56,7 +64,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task3.png)>
 
 ---
 
@@ -70,11 +78,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+- [✅] Task 1 answers written in own words
+- [✅] AWS Free Tier account created successfully
+- [✅] Signed in to AWS Management Console
+- [✅] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [✅] All required screenshots added to repository
 
 ---
 
