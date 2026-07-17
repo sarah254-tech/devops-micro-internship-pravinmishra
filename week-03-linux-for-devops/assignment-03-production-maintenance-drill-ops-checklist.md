@@ -48,19 +48,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-The output from `sudo ss -tulnep`-----> `tcp LISTEN 0  511  0.0.0.0:80  0.0.0.0:* .......` proves that Nginx is listening on `0.0.0.0:80.`.The `0.0.0.0` means Nginx is listening on all network interfaces (every available network connection on the server), not just the local machine. The `:80` means it is listening on port 80, which is the default port for HTTP web traffic.
+    The output from `sudo ss -tulnep`-----> `tcp LISTEN 0  511  0.0.0.0:80  0.0.0.0:* .......` proves that Nginx is listening on `0.0.0.0:80.`.The `0.0.0.0` means Nginx is listening on all network interfaces (every available network connection on the server), not just the local machine. The `:80` means it is listening on port 80, which is the default port for HTTP web traffic.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-The output from sudo ss -tulnep also illustrates`tcp LISTEN 0 4096 0.0.0.0:22.....users:(("sshd"...))`,proving that SSH is active on port 22. The `0.0.0.0:22` indicates that SSH is listening on port 22 across all network interfaces (all available network connections on the server). The presence of the `sshd` process confirms that the SSH service is running and ready to accept remote login requests.
+    The output from sudo ss -tulnep also illustrates`tcp LISTEN 0 4096 0.0.0.0:22.....users:(("sshd"...))`,proving that SSH is active on port 22. The `0.0.0.0:22` indicates that SSH is listening on port 22 across all network interfaces (all available network connections on the server). The presence of the `sshd` process confirms that the SSH service is running and ready to accept remote login requests.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-No, I did not find any unexpected open ports. The open ports shown are expected for this server. **Port 22** is being used by **SSH (Secure Shell)** to allow secure remote access, while **port 80** is being used by **Nginx** to serve web traffic. The other ports, such as **53** for **DNS (Domain Name System)** and **68** for **DHCP (Dynamic Host Configuration Protocol)**, are used by system services to handle name resolution and network configuration.
+    No, I did not find any unexpected open ports. The open ports shown are expected for this server. **Port 22** is being used by **SSH (Secure Shell)** to allow secure remote access, while **port 80** is being used by **Nginx** to serve web traffic. The other ports, such as **53** for **DNS (Domain Name System)** and **68** for **DHCP (Dynamic Host Configuration Protocol)**, are used by system services to handle name resolution and network configuration.
 
 
 ---
@@ -97,13 +97,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-If Nginx fails to restart in production, the issue might be a configuration error, a port conflict, a missing dependency, or a service permission problem. Because of that, users may not be able to access the website or application through the web server leading to a downtime.
+    If Nginx fails to restart in production, the issue might be a configuration error, a port conflict, a missing dependency, or a service permission problem. Because of that, users may not be able to access the website or application through the web server leading to a downtime.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-My basic rollback plan would be to first restore the last working Nginx configuration if the new changes caused the restart to fail. I would then test the configuration using `nginx -t` to check for errors before restarting the service again. If the issue still persists, I would review the Nginx error logs to identify the problem and fix it before attempting another restart. This approach helps restore the website quickly while reducing downtime.
+    My basic rollback plan would be to first restore the last working Nginx configuration if the new changes caused the restart to fail. I would then test the configuration using `nginx -t` to check for errors before restarting the service again. If the issue still persists, I would review the Nginx error logs to identify the problem and fix it before attempting another restart. This approach helps restore the website quickly while reducing downtime.
 
 ---
 
@@ -142,20 +142,20 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-I did not find any Nginx server errors in the logs. Instead, the output from, `sudo tail -n 30 /var/log/nginx/access.log` shows access requests made to the server. Most of the requests appear to be from an automated scanner trying different URLs to look for known vulnerabilities. Since the server continued responding with successful HTTP responses and the website remained accessible, it suggests that Nginx was running normally and there were no service failures at the time the logs were captured.
+    I did not find any Nginx server errors in the logs. Instead, the output from, `sudo tail -n 30 /var/log/nginx/access.log` shows access requests made to the server. Most of the requests appear to be from an automated scanner trying different URLs to look for known vulnerabilities. Since the server continued responding with successful HTTP responses and the website remained accessible, it suggests that Nginx was running normally and there were no service failures at the time the logs were captured.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-It indicates that the system was running normally at the time the logs were checked. **Nginx** was able to receive and process requests without crashing or reporting configuration issues. This suggests that the web server was stable, functioning as expected, and successfully serving users. Although the logs show some suspicious requests from automated scanners, there is no evidence that they caused any problems or affected the normal operation of the server.
+    It indicates that the system was running normally at the time the logs were checked. **Nginx** was able to receive and process requests without crashing or reporting configuration issues. This suggests that the web server was stable, functioning as expected, and successfully serving users. Although the logs show some suspicious requests from automated scanners, there is no evidence that they caused any problems or affected the normal operation of the server.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Yes, my curl request was visible in the **Nginx** access logs (`127.0.0.1 - - [13/Jul/2026:19:56:11 +0000] "GET / HTTP/1.1" 200 644 "-" "curl/8.18.0"`
-). This proves that the request successfully reached the web server and was processed by **Nginx**. Every request sent to the server, whether from a browser or the curl command-line tool, is recorded in the access log. This confirms that traffic flows from the client to the web server, and Nginx logs each request it receives.
+    Yes, my curl request was visible in the **Nginx** access logs (`127.0.0.1 - - [13/Jul/2026:19:56:11 +0000] "GET / HTTP/1.1" 200 644 "-" "curl/8.18.0"`
+    ). This proves that the request successfully reached the web server and was processed by **Nginx**. Every request sent to the server, whether from a browser or the curl command-line tool, is recorded in the access log. This confirms that traffic flows from the client to the web server, and Nginx logs each request it receives.
 
 ---
 
@@ -196,15 +196,15 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-On one hand, even though not critical, I will need to closely monitor the disk space. The disk space can fill up over time due to logs, application files, and updates. Currently, the root filesystem (/) is using 57% of its available storage, leaving about 2.9 GB free.  
+    On one hand, even though not critical, I will need to closely monitor the disk space. The disk space can fill up over time due to logs, application files, and updates. Currently, the root filesystem (/) is using 57% of its available storage, leaving about 2.9 GB free.  
 
-On the other and, the server's memory (RAM) is in a healthy state. Although only 108 MB is free, Linux uses available memory for buffer/cache. There is still 535 MB of available memory, so there is no sign of memory pressure. There is also no indication that CPU/load is under stress.
+    On the other and, the server's memory (RAM) is in a healthy state. Although only 108 MB is free, Linux uses available memory for buffer/cache. There is still 535 MB of available memory, so there is no sign of memory pressure. There is also no indication that CPU/load is under stress.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-If the disk becomes 100% full, the server may no longer be able to write new files, logs, or application data. This can cause applications to crash, prevent users from uploading data, and even stop some services from running properly. In a worst care scenarion, the server may become unstable or unavailable. That is why monitoring disk usage and cleaning up unnecessary files before the disk is full is an important practice.
+    If the disk becomes 100% full, the server may no longer be able to write new files, logs, or application data. This can cause applications to crash, prevent users from uploading data, and even stop some services from running properly. In a worst care scenarion, the server may become unstable or unavailable. That is why monitoring disk usage and cleaning up unnecessary files before the disk is full is an important practice.
 
 ---
 
@@ -240,7 +240,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-I would confirm the correct version by opening the deployed application and checking that it contains the latest changes or features I expected to see. I would also compare the deployed version with the latest code in the GitHub repository or verify the deployed commit if version information is available. This helps ensure that the application running in production matches the version that was intended for deployment.
+    I would confirm the correct version by opening the deployed application and checking that it contains the latest changes or features I expected to see. I would also compare the deployed version with the latest code in the GitHub repository or verify the deployed commit if version information is available. This helps ensure that the application running in production matches the version that was intended for deployment.
 
 
 ---
@@ -277,19 +277,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-The configuration failure was caused by a `syntax error` in the **Nginx** configuration file. I accidentally removed the semicolon `(;)` after the worker_processes auto directive, making the configuration invalid.
+    The configuration failure was caused by a `syntax error` in the **Nginx** configuration file. I accidentally removed the semicolon `(;)` after the worker_processes auto directive, making the configuration invalid.
 
 ---
 
 **2. How did you fix the issue?**
 
-I checked the error logs using `sudo journalctl -u nginx --no-pager`, which identified the syntax error. I edited the configuration file, added the missing semicolon, tested the configuration again (`nginx -t`) to confirm it was successful, and then restarted the Nginx service.
+    I checked the error logs using `sudo journalctl -u nginx --no-pager`, which identified the syntax error. I edited the configuration file, added the missing semicolon, tested the configuration again (`nginx -t`) to confirm it was successful, and then restarted the Nginx service.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-I can avoid this by always backing up the configuration before making changes, testing the configuration with `nginx -t` before restarting Nginx, and reviewing changes carefully. This helps catch errors early.
+    I can avoid this by always backing up the configuration before making changes, testing the configuration with `nginx -t` before restarting Nginx, and reviewing changes carefully. This helps catch errors early.
 
 ---
 
@@ -319,19 +319,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-The application broke because the website files in the deployment directory (`/var/www/html`) were accidentally deleted. Although Nginx was still running, it could not display the application because the required files were missing.
+    The application broke because the website files in the deployment directory (`/var/www/html`) were accidentally deleted. Although Nginx was still running, it could not display the application because the required files were missing.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-I restored the website files from the backup, confirmed that they were back in the deployment directory, and then verified that the application was accessible again by opening it in the browser and testing it with `curl`.
+    I restored the website files from the backup, confirmed that they were back in the deployment directory, and then verified that the application was accessible again by opening it in the browser and testing it with `curl`.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-To prevent this, I would always back up the application before deployment, verify the deployment files before deleting or replacing anything, and test the application immediately after deployment. I would also use version control and an automated deployment process to reduce the risk of accidental file deletion.
+    To prevent this, I would always back up the application before deployment, verify the deployment files before deleting or replacing anything, and test the application immediately after deployment. I would also use version control and an automated deployment process to reduce the risk of accidental file deletion.
 
 ---
 
@@ -347,31 +347,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-**SSH key-based authentication** (instead of a password) is more secure because the private key stays on my computer and is never sent over the network. It is much harder for attackers to guess or steal than a password, reducing the risk of unauthorized access.
+    SSH key-based authentication (instead of a password) is more secure because the private key stays on my computer and is never sent over the network. It is much harder for attackers to guess or steal than a password, reducing the risk of unauthorized access.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Only the ports needed by the application should be open because every open port is a possible entry point for attackers. Closing unused ports reduces the server's attack surface and improves its overall security.
+    Only the ports needed by the application should be open because every open port is a possible entry point for attackers. Closing unused ports reduces the server's attack surface and improves its overall security.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Enabling **Nginx** on boot ensures that the web server starts automatically whenever the server is restarted. This helps keep the application available without requiring someone to start the service manually.
+    Enabling Nginx on boot ensures that the web server starts automatically whenever the server is restarted. This helps keep the application available without requiring someone to start the service manually.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Sharing secrets, SSH keys, passwords, or cloud credentials publicly can give unauthorized people access to servers, applications, or cloud resources. This can lead to data theft, service disruption, or unexpected cloud charges.
+    Sharing secrets, SSH keys, passwords, or cloud credentials publicly can give unauthorized people access to servers, applications, or cloud resources. This can lead to data theft, service disruption, or unexpected cloud charges.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Cloud resources should be stopped or terminated when they are no longer needed to avoid unnecessary costs and reduce security risks. Unused resources can still be targeted by attackers and may continue generating charges even when they are not being used.
+    Cloud resources should be stopped or terminated when they are no longer needed to avoid unnecessary costs and reduce security risks. Unused resources can still be targeted by attackers and may continue generating charges even when they are not being used.
 
 ---
 

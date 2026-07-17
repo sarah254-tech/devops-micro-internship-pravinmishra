@@ -492,7 +492,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<![LinkedInImage](screenshots/LinkedInAssignment6.png)>
 
 ---
 

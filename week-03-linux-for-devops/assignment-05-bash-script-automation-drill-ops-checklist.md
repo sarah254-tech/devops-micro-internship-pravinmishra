@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Bash is a full programming language, the most widely used shell-type in **Linux OS**.
+    Bash is a full programming language, the most widely used shell-type in Linux OS.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Shell is a program in the **Linux OS** that receives commands, interprets them, and tells the OS the actions it should execute. While Bash is the most widely used programing langauge in shell.
+    Shell is a program in the Linux OS that receives commands, interprets them, and tells the OS the actions it should execute. While Bash is the most widely used programing langauge in shell.
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Knowing the **Bash version** is important because different versions support different features and commands. A script written for a newer Bash version may not work on an older system and vice versa. Checking the Bash version before writing scripts helps ensure the script will run correctly and remain compatible the Linux environment in use.
+    Knowing the Bash version is important because different versions support different features and commands. A script written for a newer Bash version may not work on an older system and vice versa. Checking the Bash version before writing scripts helps ensure the script will run correctly and remain compatible the Linux environment in use.
 
 ---
 
@@ -126,13 +126,13 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Variable is like a container with a name, and it holds a value.
+    Variable is like a container with a name, and it holds a value.
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-The Bash will read the arguments plus the spaces and name the space as being part of the command, this will break the script.
+    The Bash will read the arguments plus the spaces and name the space as being part of the command, this will break the script.
 
 ---
 
@@ -168,13 +168,13 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-An array in Bash is a variable that can hold a list of values under one name.
+    An array in Bash is a variable that can hold a list of values under one name.
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Arrays help you group related data together, making your scripts cleaner and easier to manage.
+    Arrays help you group related data together, making your scripts cleaner and easier to manage.
 
 ---
 
@@ -216,25 +216,25 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-A loop is a Bash programming structure that repeats a block of commands until all items have been processed or a condition is met.
+    A loop is a Bash programming structure that repeats a block of commands until all items have been processed or a condition is met.
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Loops are used to run repetitive runs using a single code line. We can run through arrays of directories, services and file paths.
+    Loops are used to run repetitive runs using a single code line. We can run through arrays of directories, services and file paths.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Five times.
+    Five times.
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Increase the number of count to 10.
+    Increase the number of count to 10.
 
 ---
 
@@ -282,13 +282,13 @@ In this task the `-f` appears at `if [ -f "$file_path" ]` and it means, "check i
 
 **3. Why should file and directory paths be stored in variables?**
 
-Storing file paths and directory paths in variables makes your Bash script easier to read, update, and reuse. If the path changes, you only need to update it in one place instead of searching through the entire script.
+    Storing file paths and directory paths in variables makes your Bash script easier to read, update, and reuse. If the path changes, you only need to update it in one place instead of searching through the entire script.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-If the file does not exist, the bash script may fail when it tries to use that file. The command will usually display an error, and depending on how the script is written, it may stop running or continue with incorrect results.
+    If the file does not exist, the bash script may fail when it tries to use that file. The command will usually display an error, and depending on how the script is written, it may stop running or continue with incorrect results.
 
 ---
 
@@ -330,7 +330,7 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-if-else statement is the conditional statement that is used to check two different expected outputs. if-else checks the condition is met  and runs different code; depending on the result.
+    if-else statement is the conditional statement that is used to check two different expected outputs. if-else checks the condition is met  and runs different code; depending on the result.
 
 ---
 
@@ -342,13 +342,13 @@ if-else statement is the conditional statement that is used to check two differe
 
 **3. Why should conditions be tested with different values?**
 
-To validate their function.
+    Conditions should be tested with different values to make sure the script behaves correctly in every situation, not just when everything is working as expected. Testing different inputs helps confirm that the script can handle both valid and invalid cases, making it more reliable and reducing unexpected errors in production.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Conditionals statements are used to check if the required conditions have been met before executing the task assigned.
+    Conditionals (statements like if, else, and elif that allow a script to make decisions) help automation scripts decide what action to take based on a specific situation. Instead of running every command, the script checks a condition first and only performs the appropriate task. This makes automation smarter, safer, and able to handle different scenarios without human intervention.
 
 ---
 
@@ -384,13 +384,13 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-A function takes a block of codes, gives it a name and run it as a single unit when called upon.
+    A function takes a block of codes, gives it a name and run it as a single unit when called upon.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Makes the work neat and easy to read, the functions can also be reused throughout the script, and also keeps the scripts easier to maintain.
+    Makes the work neat and easy to read, the functions can also be reused throughout the script, and also keeps the scripts easier to maintain.
 
 ---
 
