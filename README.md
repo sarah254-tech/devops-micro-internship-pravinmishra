@@ -126,7 +126,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-HEAD
+
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7469137384576565248/ | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7477748523678162944/ | https://medium.com/@sarahamadi97/from-civil-service-to-big-data-how-journaling-is-rebuilding-my-future-as-a-chief-data-officer-84895e1bf1ce?postPublishedType=initial |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:share:7481297443918295040/ | https://medium.com/@sarahamadi97/the-future-of-devops-isnt-automation-it-s-agentic-ai-61b0741ed6a1 |
