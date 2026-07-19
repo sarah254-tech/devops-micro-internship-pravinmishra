@@ -126,11 +126,11 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7469137384576565248/ | https://medium.com/@sarahamadi97/starting-over-at-40-was-never-the-plan-building-the-future-was-aad7a8df843f |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7477748523678162944/ | https://medium.com/@sarahamadi97/from-civil-service-to-big-data-how-journaling-is-rebuilding-my-future-as-a-chief-data-officer-84895e1bf1ce?postPublishedType=initial |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:share:7481297443918295040/ | https://medium.com/@sarahamadi97/the-future-of-devops-isnt-automation-it-s-agentic-ai-61b0741ed6a1 |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_dmi-cohort-4-live-micro-internship-waiting-activity-7483572691841757184-qpvF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/debugging-a-crashed-system-became-my-new-form-of-therapy-6ea0bffbef8a?postPublishedType=repub |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/feed/update/urn:li:activity:7469137384576565248/ | https://medium.com/@sarahamadi97/starting-over-at-40-was-never-the-plan-building-the-future-was-aad7a8df843f |
+| 01 | Success Mindset | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/feed/update/urn:li:activity:7477748523678162944/ | https://medium.com/@sarahamadi97/from-civil-service-to-big-data-how-journaling-is-rebuilding-my-future-as-a-chief-data-officer-84895e1bf1ce?postPublishedType=initial |
+| 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/feed/update/urn:li:share:7481297443918295040/ | https://medium.com/@sarahamadi97/the-future-of-devops-isnt-automation-it-s-agentic-ai-61b0741ed6a1 |
+| 03 | Linux & Bash for DevOps | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/posts/sarah-w-amadi_dmi-cohort-4-live-micro-internship-waiting-activity-7483572691841757184-qpvF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/debugging-a-crashed-system-became-my-new-form-of-therapy-6ea0bffbef8a?postPublishedType=repub |
+| 04 | Git & GitHub | 🔄 In Progress | 🔄 In Progress | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
@@ -143,7 +143,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
-**Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
+**Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solvedv
+
 
 ---
 
