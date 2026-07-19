@@ -204,7 +204,7 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-<1[Image10](screenshots/Assignment6_task5a.png)>
+<![Image10](screenshots/Assignment6_task5a.png)>
 
 ---
 
@@ -485,7 +485,7 @@ I confirmed the recovery by checking that:
 #### LinkedIn Post URL
 
 
-`https://www.linkedin.com/posts/sarah-w-amadi_dmi-cohort-4-live-micro-internship-waiting-activity-7483572691841757184-qpvF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA`
+https://www.linkedin.com/posts/sarah-w-amadi_dmi-cohort-4-live-micro-internship-waiting-activity-7483572691841757184-qpvF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 
 ---
@@ -498,7 +498,7 @@ I confirmed the recovery by checking that:
 
 # GitHub Repository URL
 
-`https://github.com/sarah254-tech/devops-micro-internship-pravinmishra`
+https://github.com/sarah254-tech/devops-micro-internship-pravinmishra
 
 
 

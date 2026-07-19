@@ -120,7 +120,7 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/sarah-w-amadi_sops-dmibypravinmishra-agenticai-activity-7482873013059772416-a3My?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA`
+https://www.linkedin.com/posts/sarah-w-amadi_sops-dmibypravinmishra-agenticai-activity-7482873013059772416-a3My?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 
 ---

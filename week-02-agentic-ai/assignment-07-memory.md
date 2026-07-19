@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`https://www.linkedin.com/feed/update/urn:li:ugcPost:7481293473346940928/`
+https://www.linkedin.com/feed/update/urn:li:ugcPost:7481293473346940928/
 
 
 
@@ -101,7 +101,7 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
+https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/
 
 
 ---

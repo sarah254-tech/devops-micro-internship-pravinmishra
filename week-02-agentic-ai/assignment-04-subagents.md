@@ -111,7 +111,7 @@ Tigger the cost optimizer agent and reviewed the generated cost optimization rep
 
 Paste your forked repository URL here:
 
-`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
+https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/
 
 ---
 

@@ -109,13 +109,15 @@ Colleagues described her as a leader who transformed adversity into architecture
 
 Today, her work continues to influence how healthcare organizations across Africa use data not just to store information, but to save lives, predict risk, improve access, and shape the future of intelligent healthcare delivery on the continent.
 
+**P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
 ## Article
 
 Sarah Amadi: The Data Executive Who Helped Redefine Healthcare Intelligence in Africa
 
 ### Public Link
 
-` https://medium.com/@sarahamadi97/sarah-amadi-the-data-executive-who-helped-redefine-healthcare-intelligence-in-africa-eb2f083b1f17 `
+ https://medium.com/@sarahamadi97/sarah-amadi-the-data-executive-who-helped-redefine-healthcare-intelligence-in-africa-eb2f083b1f17 
 
 ---
 
@@ -268,15 +270,17 @@ I will stop answering unnecessary family phone calls during my focus block hours
 
 ### LinkedIn Post
 
-[LinkedIn Link](https://www.linkedin.com/posts/sarah-w-amadi/)
+https://www.linkedin.com/posts/sarah-w-amadi_check-out-this-image-share-7477748520637222913-SoGK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA 
 
 ---
 
 ## 10. Proof of Work
 
-[LinkedIn Post URL](https://www.linkedin.com/posts/sarah-w-amadi_check-out-this-image-share-7477748520637222913-SoGK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA) 
+<![LinkedInImage](screenshots/LinkedInPost.png)>
 
-[Blog / Medium Post URL](https://medium.com/@sarahamadi97/sarah-amadi-the-data-executive-who-helped-redefine-healthcare-intelligence-in-africa-eb2f083b1f17) 
+**Blog post**
+
+<![BlogPost](screenshots/BlogPost.png)>
 
 ---
 

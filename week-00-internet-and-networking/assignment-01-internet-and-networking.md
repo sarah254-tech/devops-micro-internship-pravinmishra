@@ -220,18 +220,18 @@ Clearly structure your post into the following sections:
 
 Add the following credit note at the end of your post:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com/**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-```
 https://www.linkedin.com/posts/sarah-w-amadi_join-the-dmi-devops-micro-internship-activity-7469137384576565248-9kBn?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
-```
+
+## Blog Post URL
+
+https://medium.com/@sarahamadi97/starting-over-at-40-was-never-the-plan-building-the-future-was-aad7a8df843f
 
 ---
 
@@ -250,7 +250,10 @@ DNS often works quietly in the background, but it plays a critical role. It allo
 🔹 Example of the environments used: VS Code Setup
 Even setting up the right tools is part of the learning journey. Installing and configuring VS Code, extensions, terminals, and development environments may seem like small tasks, but they create the foundation for everything that follows.
 These early lessons reminded me that DevOps is built one concept at a time. From understanding networking fundamentals to configuring development environments, every small step contributes to the bigger picture. Today's basic concepts become tomorrow's deployment pipelines.
-hashtag#DevOps hashtag#LearningInPublic hashtag#CloudComputing hashtag#Networking hashtag#DNS hashtag#AI hashtag#VSCode hashtag#CareerTransition hashtag#TechLearning hashtag#DevOpsJourney hashtag#WomenInTech
+
+hashtag#DevOps hashtag#LearningInPublic hashtag#CloudComputing hashtag#Networking hashtag#DNS hashtag#AI hashtag#VSCode hashtag#CareerTransition 
+hashtag#TechLearning hashtag#DevOpsJourney hashtag#WomenInTech
+
 P.S. This post is part of the DevOps Micro Internship with Agentic AI Cohort run by Pravin Mishra: https://lnkd.in/dkERy8ju
 Join the community here: https://lnkd.in/d3YAnxC6
 ---

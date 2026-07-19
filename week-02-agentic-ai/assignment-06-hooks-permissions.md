@@ -140,7 +140,7 @@ Your submission must include:
 
 ## GitHub Repository URL
 
-`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
+https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/
 
 ---
 

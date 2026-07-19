@@ -93,7 +93,7 @@ Verify MCP functionality by retrieving real-time data from my GitHub account usi
 
 ## GitHub Repository URL
 
-`/https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/`
+https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 
