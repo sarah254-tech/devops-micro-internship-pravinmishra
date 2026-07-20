@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will create or confirm your GitHub account, explore repositories the way a professional would, practice starring and forking, and update your profile with professional information. This establishes a credible GitHub identity before you use GitHub for collaboration, portfolio work, and future DevOps projects.
+In this assignment, I created or confirmed my GitHub account, explore repositories the way a professional would, practice starring and forking, and update my profile with professional information. This establishes a credible GitHub identity before my use GitHub for collaboration, portfolio work, and future DevOps projects.
 
 ---
 
@@ -20,13 +20,13 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment4_task1.png)>
 
 ---
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment4_task1b.png)>
 
 ---
 
@@ -40,19 +40,19 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment4_task2a.png)>
 
 ---
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment4_task2b.png)>
 
 ---
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment4_task2c.png)>
 
 ---
 
@@ -66,7 +66,7 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment4_task3a.png)>
 
 ---
 
@@ -80,21 +80,19 @@ Add your screenshot here.
 
 ## GitHub Profile URL
 
-Paste your GitHub profile URL here:
-
-`Add your URL here`
+https://github.com/sarah254-tech
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub account created or existing account confirmed (Screenshot 1)
-- [ ] Trending repositories explored (Screenshot 3)
-- [ ] At least one repository starred (Screenshot 4)
-- [ ] At least one public repository forked (Screenshot 5)
-- [ ] Professional bio added to your GitHub profile (Screenshot 6)
-- [ ] GitHub profile URL included
-- [ ] No passwords, codes, or authentication secrets exposed
+- [✅] GitHub account created or existing account confirmed (Screenshot 1)
+- [✅] Trending repositories explored (Screenshot 3)
+- [✅] At least one repository starred (Screenshot 4)
+- [✅] At least one public repository forked (Screenshot 5)
+- [✅] Professional bio added to your GitHub profile (Screenshot 6)
+- [✅] GitHub profile URL included
+- [✅] No passwords, codes, or authentication secrets exposed
 
 ---
 

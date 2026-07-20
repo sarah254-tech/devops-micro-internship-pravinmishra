@@ -104,20 +104,19 @@ Your post must include:
 
 LinkedIn Post:
 
-https://www.linkedin.com/feed/update/urn:li:ugcPost:7481118060012134400/
+https://www.linkedin.com/posts/sarah-w-amadi_claudecode-devops-agenticai-activity-7481118063065747456-DqlL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 
 LinkedIn post:
 
-https://www.linkedin.com/feed/update/urn:li:ugcPost:7481293473346940928/
+https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-agenticai-claudecode-activity-7481293476433879041-M1sP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 
 ---
 
 ### LinkedIn Post Link:
 
-https://www.linkedin.com/feed/update/urn:li:share:7481297443918295040/
-
+https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-agenticai-claudecode-activity-7481297446988353536-T0RV?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 ---
 
 # Submission Instructions
