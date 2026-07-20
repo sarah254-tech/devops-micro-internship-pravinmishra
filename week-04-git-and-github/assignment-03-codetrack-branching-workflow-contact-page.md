@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will add a new Contact page to CodeTrack using a clean feature-branch workflow. You will keep each change in a separate commit, prove that your default branch remains unchanged before the merge, and validate the result after merging.
+In this assignment, I added a new Contact page to CodeTrack using a clean feature-branch workflow. You will keep each change in a separate commit, prove that your default branch remains unchanged before the merge, and validate the result after merging.
 
 ---
 
@@ -20,7 +20,7 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment3_task1.png)>
 
 ---
 
@@ -34,7 +34,7 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment3_task2.png)>
 
 ---
 
@@ -48,19 +48,19 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment3_task3a.png)>
 
 ---
 
 #### Screenshot 4 — Output of `git commit`
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment3_task3b.png)>
 
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment3_task3c.png)>
 
 ---
 
@@ -74,19 +74,19 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment3_task4a.png)>
 
 ---
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment3_task4b.png)>
 
 ---
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment3_task4c.png)>
 
 ---
 
@@ -100,13 +100,13 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment3_task5a.png)>
 
 ---
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment3_task5b.png)>
 
 ---
 
@@ -120,19 +120,19 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment3_task6a.png)>
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
+<![Image12](screenshots/Assignment3_task6b.png)>
 
 ---
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
+<![Image13](screenshots/Assignment3_task6c.png)>
 
 ---
 
@@ -146,7 +146,7 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
+<![Image14](screenshots/Assignment3_task7.png)>
 
 ---
 
@@ -160,7 +160,7 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment3_task8.png)>
 
 ---
 
@@ -175,15 +175,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Repository confirmed clean on the default branch (Screenshot 1)
-- [ ] `feature/contact-page` created and checked out (Screenshot 2)
-- [ ] `contact.html` added in its own commit (Screenshots 3–5)
-- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
-- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
-- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
-- [ ] Graph history reviewed (Screenshot 14)
-- [ ] Optional cleanup completed (Screenshot 15)
-- [ ] No sensitive data exposed
+- [✅] Repository confirmed clean on the default branch (Screenshot 1)
+- [✅] `feature/contact-page` created and checked out (Screenshot 2)
+- [✅] `contact.html` added in its own commit (Screenshots 3–5)
+- [✅] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [✅] Default branch proven unchanged before merge (Screenshots 9–10)
+- [✅] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [✅] Graph history reviewed (Screenshot 14)
+- [✅] Optional cleanup completed (Screenshot 15)
+- [✅] No sensitive data exposed
 
 ---
 
