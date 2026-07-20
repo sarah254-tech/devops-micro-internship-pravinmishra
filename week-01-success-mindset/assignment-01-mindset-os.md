@@ -272,6 +272,11 @@ I will stop answering unnecessary family phone calls during my focus block hours
 
 https://www.linkedin.com/posts/sarah-w-amadi_check-out-this-image-share-7477748520637222913-SoGK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA 
 
+
+### Blog Post
+
+https://medium.com/@sarahamadi97/from-civil-service-to-big-data-how-journaling-is-rebuilding-my-future-as-a-chief-data-officer-84895e1bf1ce
+
 ---
 
 ## 10. Proof of Work

@@ -254,8 +254,8 @@ These early lessons reminded me that DevOps is built one concept at a time. From
 hashtag#DevOps hashtag#LearningInPublic hashtag#CloudComputing hashtag#Networking hashtag#DNS hashtag#AI hashtag#VSCode hashtag#CareerTransition 
 hashtag#TechLearning hashtag#DevOpsJourney hashtag#WomenInTech
 
-P.S. This post is part of the DevOps Micro Internship with Agentic AI Cohort run by Pravin Mishra: https://lnkd.in/dkERy8ju
-Join the community here: https://lnkd.in/d3YAnxC6
+**P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+
 ---
 
 # Reflection – Week 0

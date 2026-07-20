@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will set up Git correctly on your local machine before starting the CodeTrack project. You will create a local repository and configure your Git identity at both the repository level (local) and the machine level (global). This assignment is local only — you will not push anything to GitHub yet.
+In this assignment, I set up Git correctly on my local machine before starting the CodeTrack project. I created a local repository and configure my Git identity at both the repository level (local) and the machine level (global). This assignment is local only — I did not push anything to GitHub yet.
 
 ---
 
@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task1.png)>
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment1_task1b.png)>
 
 ---
 
@@ -34,7 +34,7 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The `.git` folder is the main storage unit for all all my git history, branches, tags, remote reposistories and configuration. The folder is like the memory backup of my project files.
 
 ---
 
@@ -48,7 +48,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment1_task2.png)>
 
 ---
 
@@ -62,7 +62,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment1_task3.png)>
 
 ---
 
@@ -76,11 +76,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [ ] Explanation of the `.git` folder written in your own words
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] No sensitive data exposed
+- [✅] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
+- [✅] Explanation of the `.git` folder written in your own words
+- [✅] Local `user.name` and `user.email` configured and verified (Screenshot 3)
+- [✅] Global `user.name` and `user.email` configured and verified (Screenshot 4)
+- [✅] No sensitive data exposed
 
 ---
 
