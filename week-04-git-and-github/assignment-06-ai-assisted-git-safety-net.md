@@ -284,7 +284,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-
+https://www.linkedin.com/posts/sarah-w-amadi_dmi-devops-micro-internship-with-agentic-share-7485398338666663937-PVuO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 

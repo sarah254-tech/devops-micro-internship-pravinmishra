@@ -76,7 +76,7 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 03](./badges/week-03.svg)](week-03-linux-and-bash-for-devops/)
 
 <!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+[![Week 04](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 01 | Success Mindset | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/posts/sarah-w-amadi_check-out-this-image-share-7477748520637222913-SoGK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/from-civil-service-to-big-data-how-journaling-is-rebuilding-my-future-as-a-chief-data-officer-84895e1bf1ce?postPublishedType=initial |
 | 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-agenticai-claudecode-activity-7481297446988353536-T0RV?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/the-future-of-devops-isnt-automation-it-s-agentic-ai-61b0741ed6a1 |
 | 03 | Linux & Bash for DevOps | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/posts/sarah-w-amadi_dmi-cohort-4-live-micro-internship-waiting-activity-7483572691841757184-qpvF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/debugging-a-crashed-system-became-my-new-form-of-therapy-6ea0bffbef8a?postPublishedType=repub |
-| 04 | Git & GitHub | 🔄 In Progress | 🔄 In Progress | — | — |
+| 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_dmi-devops-micro-internship-with-agentic-share-7485398338666663937-PVuO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/i-finally-understood-why-devops-engineers-are-so-paranoid-fe2611cd3961 |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
