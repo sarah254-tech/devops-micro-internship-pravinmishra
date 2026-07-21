@@ -290,11 +290,15 @@ https://www.linkedin.com/posts/sarah-w-amadi_dmi-devops-micro-internship-with-ag
 
 ## Key Learnings
 
--I learned how to build a Git pre-commit hook that automatically blocks commits containing hardcoded secrets or oversized files.
--I learned how to create a Claude Code skill that reviews staged changes and drafts a Pull Request without modifying the repository.
--I learned that fixed-rule automation and AI-assisted reviews complement each other, but neither replaces human judgment.
--I learned why engineers should always review AI-generated content before using it in production workflows.
--I gained a better understanding of how the Agentic Loop (Gather → Analyze → Human Act → Verify) applies to real-world Git and DevOps workflows.
+- I learned how to build a Git pre-commit hook that automatically blocks commits containing hardcoded secrets or oversized files.
+
+- I learned how to create a Claude Code skill that reviews staged changes and drafts a Pull Request without modifying the repository.
+
+- I learned that fixed-rule automation and AI-assisted reviews complement each other, but neither replaces human judgment.
+
+- I learned why engineers should always review AI-generated content before using it in production workflows.
+
+- I gained a better understanding of how the Agentic Loop (Gather → Analyze → Human Act → Verify) applies to real-world Git and DevOps workflows.
 
 ---
 
