@@ -52,7 +52,7 @@ Add your screenshot here.
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment3_task2e.png)>
 
 ---
 
