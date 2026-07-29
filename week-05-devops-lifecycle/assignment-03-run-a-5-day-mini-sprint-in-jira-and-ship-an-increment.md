@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will run a five-day mini-Sprint in Jira and ship a small but real footer improvement to your portfolio website running on EC2. You will track the work from Sprint Goal and Story through daily Sub-tasks, Daily Scrum comments, Git commits, repeated deployments, verification, a retrospective, the Burndown Chart, and a mandatory LinkedIn delivery story.
+In this assignment, I ran a five-day mini-Sprint in Jira and ship a small but real footer improvement to my portfolio website running on EC2. I tracked the work from Sprint Goal and Story through daily Sub-tasks, Daily Scrum comments, Git commits, repeated deployments, verification, a retrospective, the Burndown Chart, and a mandatory LinkedIn delivery story.
 
 ---
 
@@ -20,13 +20,13 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment3_task1b.png)>
 
 ---
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment3_task1a.png)>
 
 ---
 
@@ -40,13 +40,13 @@ Add the required footer text (`Portfolio v1.0 — Deployed on <DD Mon YYYY> — 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment3_task2a.png)>
 
 ---
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment3_task2c.png)>
 
 ---
 
@@ -58,7 +58,7 @@ Add your screenshot here.
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment3_task2d.png)>
 
 ---
 
@@ -72,25 +72,25 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment3_task3a.png)>
 
 ---
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment3_task3c.png)>
 
 ---
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment3_task3b.png)>
 
 ---
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment3_task3d.png)>
 
 ---
 
@@ -104,19 +104,19 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment3_task4b.png)>
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+<![Image12](screenshots/Assignment3_task4a.png)>
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+<![Image13](screenshots/Assignment3_task4c.png)>
 
 ---
 
@@ -130,7 +130,7 @@ Replace the existing homepage tagline with the required DMI Discord call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Join DMI Cohort 3 on Discord and start your DevOps journey"
 
-Add your screenshot here.
+<![Image14](screenshots/Assignment3_task5.png)>
 
 ---
 
