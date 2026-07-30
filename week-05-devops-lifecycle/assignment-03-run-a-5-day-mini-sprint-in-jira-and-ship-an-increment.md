@@ -144,19 +144,19 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment3_task6a.png)>
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+<![Image16](screenshots/Assignment3_task6b.png)>
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+<![Image17](screenshots/Assignment3_task6c.png)>
 
 ---
 
@@ -164,7 +164,7 @@ Add your screenshot here.
 
 Paste your unlisted YouTube or accessible Google Drive demo-video link here:
 
-`Add your URL here`
+
 
 ---
 
@@ -180,13 +180,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-devops-womentechsters-share-7488484399483838464-xYDV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the required links and proof image
 
-Add your screenshot here.
+<![ImageLinkedIn](screenshots/Assignment3_LinkedIn.png)>
 
 ---
 
@@ -201,16 +201,16 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
-- [ ] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
-- [ ] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
-- [ ] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
-- [ ] Task 5: Day 4 DMI Discord call-to-action deployed and clickable (Screenshot 14)
-- [ ] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
-- [ ] Daily Scrum comments posted for Days 1–5
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [✅] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
+- [✅] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
+- [✅] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
+- [✅] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
+- [✅] Task 5: Day 4 DMI Discord call-to-action deployed and clickable (Screenshot 14)
+- [✅] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
+- [✅] Daily Scrum comments posted for Days 1–5
+- [✅] LinkedIn post published and URL submitted
+- [✅] Full Name visible in required screenshots
+- [✅] No sensitive data exposed
 
 ---
 
