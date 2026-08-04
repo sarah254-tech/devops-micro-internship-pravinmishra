@@ -10,15 +10,15 @@ In this assignment, I configured a private, team-managed Scrum project in Jira C
 
 ---
 
-# Task 1 — Create the Jira Project (Team-Managed Scrum)
+# Task 1 — Create the Jira Space (Team-Managed Scrum)
 
 ## Goal
 
-Create a private, team-managed Scrum project named `DevOps Micro-Internship Website – <YourName>`.
+Create a private, team-managed Scrum Space named `DevOps Micro-Internship Website – <YourName>`.
 
 ### Evidence
 
-#### Screenshot 1 — Project confirmation or project sidebar showing the project name and key
+#### Screenshot 1 — Space confirmation or Space sidebar showing the Space name and key
 
 <![Image1](screenshots/Assignment2_task1.png)>
 
@@ -43,7 +43,7 @@ Create the Epic `Polish DMI Website UI & Deploy` to group the website UI and dep
 
 ## Goal
 
-Create all six required Stories (S1–S6) under the Epic, each with its description, Gherkin acceptance criteria, Fibonacci story point estimate (1, 2, or 3), and label, and assign every Story to yourself.
+Create all six required Stories (S1–S6) under the Epic, assign every Story to yourself, and add the required description, Fibonacci story point estimate, and label. Enter the Gherkin acceptance criteria directly below the Story description in the same description box.
 
 ### Evidence
 
@@ -151,10 +151,9 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
+- Add all 12 required screenshots in the specified order
 - Full name must be visible in required screenshots
-- Do not expose sensitive information (passwords, verification codes, account recovery details)
-
+- Do not expose passwords, verification codes, private email content, account recovery details, or other sensitive information
 ---
 
 # Completion Checklist

@@ -34,7 +34,7 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 ## Goal
 
-Add the required footer text (`Portfolio v1.0 — Deployed on <DD Mon YYYY> — By <Student Name>`) to the site on a `feature/footer-v1` branch, commit it, and deploy it to the public EC2 URL.
+Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD Mon YYYY> — By <Student Name>`) to the site on a `feature/footer-v1` branch, commit it, and deploy it to the public EC2 URL.
 
 ### Evidence
 
@@ -70,7 +70,7 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 ### Evidence
 
-#### Screenshot 7 — Code editor showing the footer and date logic
+#### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
 <![Image7](screenshots/Assignment3_task3a.png)>
 
@@ -124,11 +124,11 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 ## Goal
 
-Replace the existing homepage tagline with the required DMI Discord call-to-action link and deploy it to EC2.
+Replace the existing homepage tagline with the required DMI Website call-to-action link and deploy it to EC2.
 
 ### Evidence
 
-#### Screenshot 14 — EC2 browser view showing "Join DMI Cohort 3 on Discord and start your DevOps journey"
+#### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
 <![Image14](screenshots/Assignment3_task5.png)>
 
@@ -184,7 +184,7 @@ https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-devops-womentechs
 
 ---
 
-#### Screenshot — Published LinkedIn post showing the required links and proof image
+#### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
 <![ImageLinkedIn](screenshots/Assignment3_LinkedIn.png)>
 
@@ -192,8 +192,11 @@ https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-devops-womentechs
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
+- Add all 17 assignment screenshots in the specified order
+- Add LinkedIn Screenshot 1
 - Full name must be visible in required screenshots
+- Include your two-to-three-minute demo-video URL
+- Include Daily Scrum comments for Days 1–5 and the retrospective comment
 - Include your GitHub repository URL and public EC2 live URL
 - Do not expose sensitive information (private keys, passwords, tokens, account IDs)
 
