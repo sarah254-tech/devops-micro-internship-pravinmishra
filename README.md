@@ -39,13 +39,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [LinkedIn Post](#) --> |
+| Week 04 | <![Image](badges/Champion.png)> | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7490417707314470914/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA)  |
 
 ### Leaderboard
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#__** <!-- Update this each week -->
+> 🥇 Cohort 3  Rank:**1**   Week 04
 
 ---
 
@@ -79,7 +79,7 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
