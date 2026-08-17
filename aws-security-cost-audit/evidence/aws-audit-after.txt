@@ -1,0 +1,48 @@
+========================================
+AWS SECURITY AND COST AUDIT
+========================================
+Auditor: Sarah W AMADI
+Date: Dwo 17 D-Ɔ 2026 00:05:44 GMT
+
+
+CHECK: S3 Public Access
+S3 bucket sarah-w-amadi-personal-portfolio: Public Access Block = None	None	None	None
+PASS: S3 public-access checks completed.
+
+CHECK: SSH Open to Internet
+PASS: No SSH rule allowing 0.0.0.0/0 was detected.
+
+CHECK: MySQL Open to Internet
+PASS: No MySQL rule allowing 0.0.0.0/0 was detected.
+
+CHECK: RDS Public Accessibility
+PASS: RDS instances are not publicly accessible.
+
+CHECK: EBS Encryption
+WARN: One or more EBS volumes are not encrypted.
+vol-004356a207b5c77b6	False
+vol-0b5dfd5d15b4fbc9c	True
+vol-017f4ff43dc1bc72d	False
+vol-03583961e8d90f4b9	False
+vol-00f517d594516f47b	True
+vol-06fcd66df639f8c23	False
+vol-0feb391cd067737a5	True
+vol-03e202f3485134065	True
+vol-08b7daadbc652ac5b	True
+vol-0854786eabdd0251f	False
+vol-0aefea0fdc503bbb1	True
+vol-06a4820d2b1283c4c	False
+vol-0003810778a2dbee8	False
+vol-0dcb3b1853d59cc75	False
+vol-02b47d8f8d2a9ac19	True
+vol-06b74215faa6c1565	False
+vol-0c3f5888afcdff062	False
+vol-09211f7aacae8b096	False
+
+========================================
+FINAL SUMMARY
+========================================
+PASS: 4
+WARN: 1
+FAIL: 0
+OVERALL STATUS: WARN
