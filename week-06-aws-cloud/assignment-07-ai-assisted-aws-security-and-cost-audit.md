@@ -346,7 +346,7 @@ Submit only your Google Doc link.
 
 Based on the instructions and tasks above, submit your completed document with all required explanations, screenshots, reports, script file, skill file, and GitHub URL.
 
-`Add your Google Doc link here`
+https://github.com/sarah254-tech/devops-micro-internship-pravinmishra/blob/main/week-06-aws-cloud/assignment-07-ai-assisted-aws-security-and-cost-audit.md
 
 ---
 
