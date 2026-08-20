@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will set up a fully functional Microsoft Azure Free Account so you are ready to start cloud-based assignments and hands-on labs. You will complete identity and payment verification, accept the required terms, sign in to the Azure Portal, and confirm the Free Trial subscription is available.
+In this assignment, I set up a fully functional Microsoft Azure Free Account so I am  ready to start cloud-based assignments and hands-on labs. I  completed identity and payment verification, accepted the required terms, sign in to the Azure Portal, and confirmed the Free Trial subscription is available.
 
 ---
 
@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task5a.png)>
 
 ---
 
-#### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
+#### Screenshot 2 — "Subscriptions" section showing the  subscription.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment1_task5b.png)>
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+    I plan to explore their EC2 instance and networking. That is because I would be building several application architectures.
 
 ---
 
@@ -57,12 +57,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✅] Azure Free Account created with identity, phone, and payment verification completed
+- [✅] Microsoft Agreement and Offer Terms accepted
+- [✅] Azure Portal accessed successfully (Screenshot 1)
+- [✅] Free Trial subscription confirmed (Screenshot 2)
+- [✅] Reflection paragraph written (Notes)
+- [✅] No sensitive information exposed
 
 ---
 

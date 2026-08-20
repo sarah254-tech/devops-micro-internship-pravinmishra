@@ -332,7 +332,7 @@ Follow the Assignment Submission Guidelines.
 - [✅] All "Notes You Must Write" questions are answered in your own words
 - [✅] No AWS credentials or unblurred account IDs exposed
 - [✅] LinkedIn post published and URL submitted
-- [ ] GitHub URL included in the Google Doc
+- [✅] GitHub URL included in the Google Doc
 - [ ] Google Doc is accessible
 - [ ] Link tested in incognito mode
 
