@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will build a read-only Bash script that audits the Azure resources you deployed earlier this week — a virtual machine, a three-tier network with a Load Balancer, a Storage Account, and an Azure Database for MySQL server — for common security misconfigurations. You will connect that script to Claude Code as a reusable `/azure-audit` skill that explains findings and recommends a fix without ever running it, then fix one real finding yourself and prove the fix with a second audit run. This is the same read-only-evidence-then-human-fixes discipline from Week 3, now applied to Azure with the `az` CLI instead of Linux commands — and the cloud-agnostic counterpart to the AWS audit you built in Week 6.
+In this assignment, I built a read-only Bash script that audits the Azure resources I deployed earlier this week — a virtual machine, a three-tier network with a Load Balancer, a Storage Account, and an Azure Database for MySQL server — for common security misconfigurations. I connected that script to Claude Code as a reusable `/azure-audit` skill that explains findings and recommends a fix without ever running it, then fix one real finding myself and proved the fix with a second audit run. This is the same read-only-evidence-then-human-fixes discipline from Week 3, now applied to Azure with the `az` CLI instead of Linux commands — and the cloud-agnostic counterpart to the AWS audit you built in Week 6.
 
 ---
 
@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment7_task1.png)>
 
 ---
 
@@ -34,7 +34,8 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment7_task2a.png)>
+<![Image2](screenshots/Assignment7_task2-b.png)>
 
 ---
 
@@ -48,7 +49,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment7_task3.png)>
 
 ---
 
@@ -62,13 +63,18 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment7_task4-a-1.png)>
+<![Image4](screenshots/Assignment7_task4-a-2.png)>
+<![Image4](screenshots/Assignment7_task4-a-3.png)>
+<![Image4](screenshots/Assignment7_task4-a-4.png)>
+<![Image4](screenshots/Assignment7_task4-a-5.png)>
+<![Image4](screenshots/Assignment7_task4-a-6.png)>
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment7_task4b.png)>
 
 ---
 
@@ -82,7 +88,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment7_task5.png)>
 
 ---
 
@@ -96,13 +102,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment7_task6a.png)>
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment7_task6b.png)>
 
 ---
 
@@ -116,19 +122,21 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment7_task7b-1.png)>
+<![Image9](screenshots/Assignment7_task7b-2.png)>
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment7_task7c-1.png)>
+<![Image10](screenshots/Assignment7_task7c-2.png)>
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment7_task7d.png)>
 
 ---
 
@@ -136,7 +144,76 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+## Notes: Azure Audit vs AWS Audit
+
+### 🔄 Finding Categories That Map Across Both Clouds
+
+* **Network exposure**
+
+  * **AWS:** Checked security-group rules for unnecessarily open inbound access.
+  * **Azure:** Checked NSG rules for SSH/RDP exposed to `0.0.0.0/0`.
+  * **Same security principle:** Administrative ports should not be unnecessarily exposed to the Internet.
+
+* **Public storage access**
+
+  * **AWS:** Checked S3 bucket public-access configuration.
+  * **Azure:** Checked whether Storage Accounts allow public blob access.
+  * **Same security principle:** Cloud storage should not be publicly accessible unless there is a deliberate business requirement.
+
+* **Encryption**
+
+  * **AWS:** Checked encryption/security configuration for cloud resources such as storage/disks.
+  * **Azure:** Checked VM OS disk encryption status.
+  * **Same security principle:** Data at rest should be protected through appropriate encryption controls.
+
+* **Database public exposure**
+
+  * **AWS:** Database security was assessed in terms of network/public accessibility.
+  * **Azure:** Checked whether Azure MySQL Flexible Server has public network access enabled.
+  * **Same security principle:** Managed databases should remain private and accessible only from the application tier.
+
+### 🔁 What Stayed Exactly the Same
+
+The biggest similarity was **not the commands. It was the workflow.**
+
+* **1. Gather evidence first**
+
+  * AWS used `aws` CLI read-only commands.
+  * Azure uses `az` CLI read-only commands.
+  * In both cases, the script observes the environment rather than changing it.
+
+* **2. Never assume a finding**
+
+  * A resource is only reported as insecure when the CLI output provides evidence.
+  * This was particularly important with Azure because there was **no Storage Account** in the resource group. Instead of inventing a problem, the audit reported it as inconclusive.
+
+* **3. Separate detection from remediation**
+
+  * The audit script only identifies the problem.
+  * Claude explains the risk and recommends the fix.
+  * **The human performs the actual remediation.**
+
+* **4. Verify after the human fix**
+
+  * The first audit establishes the baseline.
+  * A real finding is corrected manually.
+  * The audit is run again.
+  * The second report provides evidence that the finding was resolved.
+
+* **5. Keep AI on the safe side of the boundary**
+
+  * Claude can **read, analyse and recommend**.
+  * Claude does not execute destructive or mutating cloud commands.
+  * The human remains responsible for changing the infrastructure.
+
+### 💡 Main Lesson
+
+The AWS and Azure implementations use completely different commands and resource names, but the **DevOps security discipline is cloud-agnostic**:
+
+> **Gather → Analyse → Human Fix → Verify**
+
+AWS taught me the security-audit pattern. Azure demonstrated that the same pattern can be transferred to another cloud provider without changing the underlying security mindset. The tools changed from `aws` to `az`, but the principles of **least privilege, read-only evidence gathering, human-controlled remediation, and independent verification** stayed exactly the same.
+
 
 ---
 
@@ -152,15 +229,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
-- [ ] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
-- [ ] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
-- [ ] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
-- [ ] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
-- [ ] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
-- [ ] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
-- [ ] Notes comparing this to the Week 6 AWS audit completed
-- [ ] No subscription IDs, tenant IDs, or credentials exposed
+- [✅] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
+- [✅] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
+- [✅] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
+- [✅] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
+- [✅] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
+- [✅] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
+- [✅] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
+- [✅] Notes comparing this to the Week 6 AWS audit completed
+- [✅] No subscription IDs, tenant IDs, or credentials exposed
 
 ---
 
