@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will deploy the Mini Finance static web application directly from an Azure Storage Account by enabling Static Website Hosting. The completed website must be publicly accessible through the Azure Storage primary endpoint URL.
+In this assignment, I deployed the Mini Finance static web application directly from an Azure Storage Account by enabling Static Website Hosting. The completed website was publicly accessible through the Azure Storage primary endpoint URL.
 
 ---
 
@@ -50,7 +50,7 @@ Open the primary endpoint URL and confirm the Mini Finance application, styling,
 
 #### Screenshot 1 — Mini Finance website running in the browser
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment4_task4.png)>
 
 ---
 
@@ -58,7 +58,7 @@ Add your screenshot here.
 
 Paste the Azure Storage static website URL here:
 
-`Add your URL here`
+https://minifinance20260820.z20.web.core.windows.net/
 
 ---
 
@@ -71,12 +71,12 @@ Paste the Azure Storage static website URL here:
 
 # Completion Checklist
 
-- [ ] Mini Finance project downloaded and extracted
-- [ ] Storage Account created with Static Website Hosting enabled
-- [ ] All website files uploaded to the `$web` container
-- [ ] Website verified through the primary endpoint (Screenshot 1)
-- [ ] Website URL included
-- [ ] No sensitive account information exposed
+- [✅] Mini Finance project downloaded and extracted
+- [✅] Storage Account created with Static Website Hosting enabled
+- [✅] All website files uploaded to the `$web` container
+- [✅] Website verified through the primary endpoint (Screenshot 1)
+- [✅] Website URL included
+- [✅] No sensitive account information exposed
 
 ---
 
