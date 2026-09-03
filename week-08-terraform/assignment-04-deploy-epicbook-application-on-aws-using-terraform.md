@@ -6,9 +6,9 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will use reusable Terraform modules to provision the AWS infrastructure required by EpicBook. You will create a custom VPC, one public subnet, two private database subnets across different Availability Zones, an Internet Gateway, a public route table, Security Groups, an EC2 Linux instance, and a private Amazon RDS for MySQL database.
+In this assignment, I used reusable Terraform modules to provision the AWS infrastructure required by EpicBook. I createed a custom VPC, one public subnet, two private database subnets across different Availability Zones, an Internet Gateway, a public route table, Security Groups, an EC2 Linux instance, and a private Amazon RDS for MySQL database.
 
-You will use EC2 `user_data` to install the required software, initialize the EpicBook database, connect the application to Amazon RDS, configure Nginx, validate the complete browser-to-database workflow, destroy the resources after testing, and publish the required LinkedIn post.
+I used EC2 `user_data` to install the required software, initialize the EpicBook database, connect the application to Amazon RDS, configure Nginx, validate the complete browser-to-database workflow, destroy the resources after testing, and publish the required LinkedIn post.
 
 ---
 
@@ -24,7 +24,7 @@ Prepare your local environment by installing Terraform, AWS CLI, and the HashiCo
 
 Add a screenshot of the terminal showing successful `terraform version` output.
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task0-a.png)>
 
 ---
 
@@ -32,7 +32,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful `aws --version` output.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment4_task0-b.png)>
 
 ---
 
@@ -40,7 +40,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment1_task0-c.png)>
 
 ---
 
@@ -80,7 +80,7 @@ terraform-aws-epicbook/
 
 Add a screenshot of the VS Code Explorer showing the complete root project and the `network`, `ec2`, and `rds` module directory structure.
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment4_task1.png)>
 
 ---
 
@@ -109,7 +109,8 @@ The network module must include:
 
 Add a screenshot of VS Code showing the VPC, public subnet, and two private database subnet configurations.
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment4_task2a-1.png)>
+<![Image5](screenshots/Assignment4_task2a-2.png)>
 
 ---
 
@@ -117,7 +118,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the Internet Gateway, public route table, and route table association.
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment4_task2b.png)>
 
 ---
 
@@ -125,7 +126,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the EC2 and RDS Security Groups, including MySQL access from the EC2 Security Group only.
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment4_task2c.png)>
 
 ---
 
@@ -133,7 +134,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the network module outputs.
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment4_task2d.png)>
 
 ---
 
@@ -161,7 +162,7 @@ The `user_data.sh` script must install the required software without storing dat
 
 Add a screenshot of VS Code showing the EC2 resource and `user_data` configuration.
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment4_task3a.png)>
 
 ---
 
@@ -171,7 +172,9 @@ Add a screenshot of VS Code showing `user_data.sh`.
 
 Ensure that no credentials, passwords, private keys, access tokens, or application secrets are visible.
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment4_task3b-1.png)>
+<![Image10](screenshots/Assignment4_task3b-2.png)>
+<![Image10](screenshots/Assignment4_task3b-3.png)>
 
 ---
 
@@ -179,7 +182,9 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the EC2 module variables and outputs.
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment4_task3c-1.png)>
+<![Image11](screenshots/Assignment4_task3c-2.png)>
+<![Image11](screenshots/Assignment4_task3c-3.png)>
 
 ---
 
@@ -205,7 +210,10 @@ The RDS module must include:
 
 Add a screenshot of VS Code showing the DB subnet group and RDS MySQL configuration.
 
-Add your screenshot here.
+
+<![Image13](screenshots/Assignment4_task4a-1.png)>
+<![Image13](screenshots/Assignment4_task4a-2.png)>
+<![Image13](screenshots/Assignment4_task4a-3.png)>
 
 ---
 
@@ -215,7 +223,7 @@ Add a screenshot of VS Code showing `publicly_accessible = false`, the RDS Secur
 
 Ensure that the database password and other sensitive values are hidden.
 
-Add your screenshot here.
+<![Image13](screenshots/Assignment4_task4b.png)>
 
 ---
 
@@ -223,7 +231,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the RDS endpoint output.
 
-Add your screenshot here.
+<![Image14](screenshots/Assignment4_task4c.png)>
 
 ---
 
@@ -239,7 +247,7 @@ Use the root Terraform configuration to call the Network, EC2, and RDS modules a
 
 Add a screenshot of VS Code showing the root `main.tf` with the Network, EC2, and RDS module blocks.
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment4_task5a.png)>
 
 ---
 
@@ -247,7 +255,8 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing values passed from the Network module to the EC2 and RDS modules.
 
-Add your screenshot here.
+<![Image16](screenshots/Assignment4_task5b-1.png)>
+<![Image16](screenshots/Assignment4_task5b-2.png)>
 
 ---
 
@@ -255,7 +264,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the root EC2 public IP and RDS endpoint outputs.
 
-Add your screenshot here.
+<![Image17](screenshots/Assignment4_task5c.png)>
 
 ---
 
@@ -271,7 +280,7 @@ Initialize the modular Terraform project, validate the configuration, review the
 
 Add a screenshot of the terminal showing successful `terraform init` output.
 
-Add your screenshot here.
+<![Image18](screenshots/Assignment4_task6a.png)>
 
 ---
 
@@ -279,7 +288,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful `terraform validate` output.
 
-Add your screenshot here.
+<![Image19](screenshots/Assignment4_task6b.png)>
 
 ---
 
@@ -287,7 +296,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan summary and proposed resources.
 
-Add your screenshot here.
+<![Image20](screenshots/Assignment4_task6c.png)>
 
 ---
 
@@ -295,7 +304,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+<![Image21](screenshots/Assignment4_task6d.png)>
 
 ---
 
@@ -303,7 +312,7 @@ Add your screenshot here.
 
 Add a screenshot showing the EC2 public IP and RDS endpoint returned by `terraform output`.
 
-Add your screenshot here.
+<![Image22](screenshots/Assignment4_task6e.png)>
 
 ---
 
@@ -319,7 +328,7 @@ Verify that the EC2 and RDS resources were successfully provisioned and confirm 
 
 Add a screenshot of AWS CLI showing the EC2 instance running.
 
-Add your screenshot here.
+<![Image23](screenshots/Assignment4_task7a.png)>
 
 ---
 
@@ -327,7 +336,7 @@ Add your screenshot here.
 
 Add a screenshot of AWS CLI showing that RDS is available and not publicly accessible.
 
-Add your screenshot here.
+<![Image24](screenshots/Assignment4_task7b.png)>
 
 ---
 
@@ -335,7 +344,7 @@ Add your screenshot here.
 
 Add a screenshot of the EC2 terminal showing the required software version checks and the active Nginx service.
 
-Add your screenshot here.
+<![Image25](screenshots/Assignment4_task7c.png)>
 
 ---
 
@@ -353,7 +362,7 @@ Add a screenshot of the terminal showing a successful connection from EC2 to Ama
 
 Ensure that the database password is not visible.
 
-Add your screenshot here.
+<![Image26](screenshots/Assignment4_task8a.png)>
 
 ---
 
@@ -361,7 +370,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the EpicBook tables and imported data.
 
-Add your screenshot here.
+<![Image27](screenshots/Assignment4_task8b.png)>
 
 ---
 
@@ -377,7 +386,7 @@ Install EpicBook dependencies, configure the application to use Amazon RDS, conf
 
 Add a screenshot of the terminal showing successful dependency installation and the `node_modules` directory.
 
-Add your screenshot here.
+<![Image28](screenshots/Assignment4_task9a.png)>
 
 ---
 
@@ -385,7 +394,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful Nginx configuration test and active service status.
 
-Add your screenshot here.
+<![Image29](screenshots/Assignment4_task9b.png)>
 
 ---
 
@@ -393,7 +402,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing EpicBook running or listening on port `8080`.
 
-Add your screenshot here.
+<![Image30](screenshots/Assignment4_task9c.png)>
 
 ---
 
@@ -405,7 +414,7 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 ## EC2 Public IP URL
 
-**EC2 Public IP URL:** Add the working EpicBook EC2 public IP URL here
+**EC2 Public IP URL:** http://3.239.148.232/
 
 ## Evidence
 
@@ -413,7 +422,7 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 Add a screenshot of the browser showing EpicBook using the EC2 public IP.
 
-Add your screenshot here.
+<![Image31](screenshots/Assignment4_task10a.png)>
 
 ---
 
@@ -421,7 +430,7 @@ Add your screenshot here.
 
 Add a screenshot of the browser showing a successful cart or checkout action.
 
-Add your screenshot here.
+<![Image32](screenshots/Assignment4_task10a.png)>
 
 ---
 
@@ -431,7 +440,7 @@ Add a screenshot of the terminal showing the corresponding RDS database record c
 
 Ensure that database credentials and other sensitive values are not visible.
 
-Add your screenshot here.
+<![Image33](screenshots/Assignment4_task10b.png)>
 
 ---
 
@@ -447,7 +456,7 @@ Remove all AWS resources created by the modular Terraform configuration.
 
 Add a screenshot of the terminal showing successful `terraform destroy` completion.
 
-Add your screenshot here.
+<![Image34](screenshots/Assignment4_task11.png)>
 
 ---
 
@@ -465,12 +474,11 @@ Write the post in your own words and include at least one deployment screenshot 
 
 Add a screenshot of the published LinkedIn post showing the post and at least one deployment image or other proof.
 
-Add your screenshot here.
+<![Image35](screenshots/Assignment4_LinkedInImage.png)>
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
-
+**LinkedIn Post URL:** https://lnkd.in/p/d_buGRx7
 ---
 
 # Submission Instructions
@@ -490,73 +498,73 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Installed and verified Terraform
-- [ ] Installed and verified AWS CLI
-- [ ] Configured AWS CLI
-- [ ] Confirmed the AWS Region
-- [ ] Installed the HashiCorp Terraform extension
-- [ ] Created the modular Terraform project
-- [ ] Created the root `main.tf`, `variables.tf`, and `outputs.tf`
-- [ ] Created the Network module
-- [ ] Created the EC2 module
-- [ ] Created the RDS module
-- [ ] Created the EC2 `user_data.sh`
-- [ ] Created VPC `10.0.0.0/16`
-- [ ] Created public subnet `10.0.1.0/24`
-- [ ] Created private DB subnet A `10.0.2.0/24`
-- [ ] Created private DB subnet B `10.0.3.0/24`
-- [ ] Used different Availability Zones for the database subnets
-- [ ] Created and attached the Internet Gateway
-- [ ] Created the public route table
-- [ ] Associated the public subnet with the public route table
-- [ ] Created the EC2 Security Group
-- [ ] Allowed HTTP port `80`
-- [ ] Restricted SSH port `22`
-- [ ] Created the RDS Security Group
-- [ ] Allowed MySQL port `3306` from the EC2 Security Group only
-- [ ] Exposed the required Network module outputs
-- [ ] Defined the EC2 instance
-- [ ] Connected `user_data.sh` using the EC2 `user_data` argument
-- [ ] Configured EC2 with a public IP
-- [ ] Installed the required software using user data
-- [ ] Created the RDS DB subnet group
-- [ ] Created Amazon RDS for MySQL
-- [ ] Confirmed RDS is not publicly accessible
-- [ ] Configured sensitive database variables
-- [ ] Exposed the RDS endpoint
-- [ ] Connected all modules through the root module
-- [ ] Passed Network module outputs to EC2 and RDS
-- [ ] Added root EC2 public IP and RDS endpoint outputs
-- [ ] Completed `terraform init`
-- [ ] Completed `terraform validate`
-- [ ] Reviewed `terraform plan`
-- [ ] Completed `terraform apply`
-- [ ] Verified EC2 is running
-- [ ] Verified RDS is available
-- [ ] Verified user data installation
-- [ ] Connected to EC2 using SSH
-- [ ] Cloned EpicBook
-- [ ] Created the `bookstore` database
-- [ ] Imported the database schema
-- [ ] Imported author seed data
-- [ ] Imported book seed data
-- [ ] Verified database records
-- [ ] Installed EpicBook dependencies
-- [ ] Configured EpicBook to use RDS
-- [ ] Configured Nginx
-- [ ] Started EpicBook
-- [ ] Verified port `8080`
-- [ ] Loaded EpicBook through the EC2 public IP
-- [ ] Verified product viewing
-- [ ] Verified Add to Cart
-- [ ] Verified the checkout or order workflow
-- [ ] Confirmed application actions in Amazon RDS
-- [ ] Completed `terraform destroy`
-- [ ] Published the required LinkedIn post
-- [ ] Added the LinkedIn post URL
-- [ ] Captured all 35 required screenshots
-- [ ] Confirmed that my full name is visible in the required screenshots
-- [ ] Checked that no sensitive information is exposed
+- [✅] Installed and verified Terraform
+- [✅] Installed and verified AWS CLI
+- [✅] Configured AWS CLI
+- [✅] Confirmed the AWS Region
+- [✅] Installed the HashiCorp Terraform extension
+- [✅] Created the modular Terraform project
+- [✅] Created the root `main.tf`, `variables.tf`, and `outputs.tf`
+- [✅] Created the Network module
+- [✅] Created the EC2 module
+- [✅] Created the RDS module
+- [✅] Created the EC2 `user_data.sh`
+- [✅] Created VPC `10.0.0.0/16`
+- [✅] Created public subnet `10.0.1.0/24`
+- [✅] Created private DB subnet A `10.0.2.0/24`
+- [✅] Created private DB subnet B `10.0.3.0/24`
+- [✅] Used different Availability Zones for the database subnets
+- [✅] Created and attached the Internet Gateway
+- [✅] Created the public route table
+- [✅] Associated the public subnet with the public route table
+- [✅] Created the EC2 Security Group
+- [✅] Allowed HTTP port `80`
+- [✅] Restricted SSH port `22`
+- [✅] Created the RDS Security Group
+- [✅] Allowed MySQL port `3306` from the EC2 Security Group only
+- [✅] Exposed the required Network module outputs
+- [✅] Defined the EC2 instance
+- [✅] Connected `user_data.sh` using the EC2 `user_data` argument
+- [✅] Configured EC2 with a public IP
+- [✅] Installed the required software using user data
+- [✅] Created the RDS DB subnet group
+- [✅] Created Amazon RDS for MySQL
+- [✅] Confirmed RDS is not publicly accessible
+- [✅] Configured sensitive database variables
+- [✅] Exposed the RDS endpoint
+- [✅] Connected all modules through the root module
+- [✅] Passed Network module outputs to EC2 and RDS
+- [✅] Added root EC2 public IP and RDS endpoint outputs
+- [✅] Completed `terraform init`
+- [✅] Completed `terraform validate`
+- [✅] Reviewed `terraform plan`
+- [✅] Completed `terraform apply`
+- [✅] Verified EC2 is running
+- [✅] Verified RDS is available
+- [✅] Verified user data installation
+- [✅] Connected to EC2 using SSH
+- [✅] Cloned EpicBook
+- [✅] Created the `bookstore` database
+- [✅] Imported the database schema
+- [✅] Imported author seed data
+- [✅] Imported book seed data
+- [✅] Verified database records
+- [✅] Installed EpicBook dependencies
+- [✅] Configured EpicBook to use RDS
+- [✅] Configured Nginx
+- [✅] Started EpicBook
+- [✅] Verified port `8080`
+- [✅] Loaded EpicBook through the EC2 public IP
+- [✅] Verified product viewing
+- [✅] Verified Add to Cart
+- [✅] Verified the checkout or order workflow
+- [✅] Confirmed application actions in Amazon RDS
+- [✅] Completed `terraform destroy`
+- [✅] Published the required LinkedIn post
+- [✅] Added the LinkedIn post URL
+- [✅] Captured all 35 required screenshots
+- [✅] Confirmed that my full name is visible in the required screenshots
+- [✅] Checked that no sensitive information is exposed
 
 ---
 
