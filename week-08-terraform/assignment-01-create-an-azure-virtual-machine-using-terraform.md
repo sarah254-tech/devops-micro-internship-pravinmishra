@@ -98,6 +98,10 @@ Review the Terraform execution plan and provision the Azure resources.
 
 VM Public IP Address: 20.228.211.144
 
+### Question
+
+VM Public IP Address: [Enter the public IP shown by terraform output]
+
 ---
 
 # Task 4 — Verify the Deployment

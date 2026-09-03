@@ -81,8 +81,7 @@ The `cloud-init.sh` file must contain the complete automated React application d
 Add a screenshot of VS Code showing the AzureRM provider, resource group, and Network Security Group configuration in `main.tf`.
 
 <![Image4](screenshots/Assignment1_task1-a.png)>
-<![Image4](screenshots/Assignment3_task1b.png)>
-
+<![image5](screenshots/Assignment1_task1-b.png)>
 ---
 
 ### Screenshot 5 — Linux Virtual Machine and `custom_data`
@@ -91,7 +90,8 @@ Add a screenshot of VS Code showing the Linux virtual machine configuration, inc
 
 Ensure that passwords, private keys, account IDs, access tokens, and other sensitive information are hidden.
 
-<![image5](screenshots/Assignment1_task1-b.png)>
+
+<![Image4](screenshots/Assignment3_task1b.png)>
 
 ---
 
@@ -109,7 +109,7 @@ Ensure that no passwords, Azure credentials, access tokens, SSH private keys, or
 
 Add a screenshot of VS Code showing the public IP `output` block in `main.tf`.
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment3_task1b.png)>
 
 ---
 
