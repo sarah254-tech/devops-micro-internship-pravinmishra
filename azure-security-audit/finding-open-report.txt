@@ -1,0 +1,31 @@
+==========================================
+AZURE SECURITY AUDIT
+==========================================
+Auditor: Sarah W AMADI
+Resource Group: bookreview-capstone-rg
+Date: Fia 21 D-Ɔ 2026 19:36:20 GMT
+
+CHECK 1: NSG PUBLIC SSH/RDP ACCESS
+------------------------------------------
+FAIL: Public SSH/RDP access detected.
+web-nsg: audit-test-open-ssh allows 22 from 0.0.0.0/0
+
+CHECK 2: STORAGE ACCOUNT PUBLIC BLOB ACCESS
+------------------------------------------
+WARN: No Storage Account found in the resource group.
+
+CHECK 3: VM OS DISK ENCRYPTION
+------------------------------------------
+WARN: bookreview-app-vm does not show a Disk Encryption Set.
+WARN: bookreview-web-vm does not show a Disk Encryption Set.
+
+CHECK 4: MYSQL PUBLIC NETWORK ACCESS
+------------------------------------------
+PASS: bookreview-mysql public network access is disabled.
+
+==========================================
+AUDIT SUMMARY
+==========================================
+RESULT: FAIL
+Failures: 1
+Warnings: 3

@@ -1,0 +1,10 @@
+{
+  "env": {
+    "JIRA_URL": "https://sarahworkspace-40756623.atlassian.net",
+    "JIRA_USERNAME": "sarahamadi97@gmail.com",
+    "JIRA_API_TOKEN": "ATATT3xFfGF0ixh5XZxxWuDvyNjiljDq6I-AE1Dr0wYfLOsUqsf-nzgO3dDnCniOswKcmkgB_sOQp_vvn1GIzRGnpiXx4Iy_iWPLI3NzoV_xPOGwtjJUrAgbmu_uFRj3lNJhieC4jHrGoL5EBOODIAWmEKttGz6OQ8QoGZVdhNtEdimmetkkL54=14B24AB6"
+  },
+  "enabledMcpjsonServers": [
+    "jira"
+  ]
+}

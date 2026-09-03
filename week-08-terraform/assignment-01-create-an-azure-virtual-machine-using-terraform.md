@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will use Terraform to provision a complete Azure Virtual Machine environment, including a resource group, virtual network, subnet, public IP, network interface, and a Linux-based virtual machine. You will set up and verify the required local tools, define the infrastructure in Terraform, initialize the project, review and apply the plan, verify the running VM through Azure CLI, capture the public IP output, and destroy the resources after testing.
+In this assignment, I used Terraform to provision a complete Azure Virtual Machine environment, including a resource group, virtual network, subnet, public IP, network interface, and a Linux-based virtual machine. I set up and verified the required local tools, defined the infrastructure in Terraform, initialized the project, reviewed and applied the plan, verified the running VM through Azure CLI, capture the public IP output, and destroyed the resources after testing.
 
 ---
 
@@ -20,19 +20,19 @@ Prepare your local environment for Terraform deployment by installing Terraform,
 
 #### Screenshot 1 — Terminal showing successful `terraform version` output
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task0-a.png)>
 
 ---
 
 #### Screenshot 2 — Terminal showing successful `az version` output
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment1_task0-b.png)>
 
 ---
 
 #### Screenshot 3 — VS Code Extensions panel showing the HashiCorp Terraform extension installed and enabled
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment1_task0-c.png)>
 
 ---
 
@@ -46,13 +46,13 @@ Create a new Terraform project and define the complete Azure Virtual Machine env
 
 #### Screenshot 4 — VS Code showing the AzureRM provider configuration and resource group configuration in `main.tf`
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment1_task1-a.png)>
 
 ---
 
 #### Screenshot 5 — VS Code showing the Linux virtual machine configuration and public IP `output` block in `main.tf`. Ensure that the VM password is hidden or redacted
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment1_task1-b.png)>
 
 ---
 
@@ -66,7 +66,7 @@ Initialize the Terraform working directory and download the required provider co
 
 #### Screenshot 6 — Terminal showing the successful `terraform init` output
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment1_task2-a.png)>
 
 ---
 
@@ -80,19 +80,23 @@ Review the Terraform execution plan and provision the Azure resources.
 
 #### Screenshot 7 — Terraform plan summary showing the proposed resources
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment1_task3a.png)>
 
 ---
 
 #### Screenshot 8 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment1_task3b.png)>
 
 ---
 
 #### Screenshot 9 — Terraform output showing the public IP address of the VM
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment1_task3c.png)>
+
+### Question
+
+VM Public IP Address: 20.228.211.144
 
 ---
 
@@ -106,7 +110,7 @@ Confirm through Azure CLI that the virtual machine was created successfully and 
 
 #### Screenshot 10 — Azure CLI output showing the deployed VM name and `VM running` status
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment1_task4.png)>
 
 ---
 
@@ -120,7 +124,7 @@ Remove all Azure resources created by Terraform after completing the deployment 
 
 #### Screenshot 11 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment1_task5.png)>
 
 ---
 
