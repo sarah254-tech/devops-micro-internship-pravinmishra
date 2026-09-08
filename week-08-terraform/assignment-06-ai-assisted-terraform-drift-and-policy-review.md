@@ -6,8 +6,8 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**GitHub Repository/Folder URL:** Add your GitHub URL here
+**Full Name:** Sarah Wambui Amadi 
+**GitHub Repository/Folder URL:** 
 
 ---
 
