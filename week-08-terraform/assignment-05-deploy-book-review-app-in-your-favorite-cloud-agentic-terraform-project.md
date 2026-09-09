@@ -32,11 +32,17 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
 <![Image1](screenshots/Assignment5_task0-1a.png)>
+
 <![Image1](screenshots/Assignment5_task0-1b.png)>
+
 <![Image1](screenshots/Assignment5_task0-1c.png)>
+
 <![Image1](screenshots/Assignment5_task0-1d.png)>
+
 <![Image1](screenshots/Assignment5_task0-1e.png)>
+
 <![Image1](screenshots/Assignment5_task0-1f.png)>
+
 <![Image1](screenshots/Assignment5_task0-1g.png)>
 
 ---
@@ -46,7 +52,9 @@ Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture,
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
 <![Image2](screenshots/Assignment5_task0-2a.png)>
+
 <![Image2](screenshots/Assignment5_task0-2b.png)>
+
 <![Image2](screenshots/Assignment5_task0-2c.png)>
 
 ---
@@ -56,8 +64,11 @@ Add a screenshot showing the Terraform Engineer subagent configuration.
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
 <![Image3](screenshots/Assignment5_task0-3a.png)>
+
 <![Image3](screenshots/Assignment5_task0-3b.png)>
+
 <![Image3](screenshots/Assignment5_task0-3c.png)>
+
 <![Image3](screenshots/Assignment5_task0-3d.png)>
 
 ---
@@ -75,6 +86,7 @@ Add a screenshot showing Terraform MCP connected and available.
 Add a screenshot showing the configured Claude Code validation hooks.
 
 <![Image5](screenshots/Assignment5_task0-5a.png)>
+
 <![Image5](screenshots/Assignment5_task0-5b.png)>
 
 ---
@@ -192,6 +204,7 @@ Add a screenshot showing the six-subnet architecture across two availability loc
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
 <![Image8](screenshots/Assignment5_task2c-1.png)>
+
 <![Image8](screenshots/Assignment5_task2c-2.png)>
 
 ---
@@ -209,8 +222,11 @@ Deploy the public and internal load balancers and the Web and Application comput
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
 <![Image9](screenshots/Assignment5_task3-1a.png)>
+
 <![Image9](screenshots/Assignment5_task3-1b.png)>
+
 <![Image9](screenshots/Assignment5_task3-1c.png)>
+
 <![Image9](screenshots/Assignment5_task3-1d.png)>
 
 ---
@@ -236,6 +252,7 @@ Add a screenshot showing the private internal load balancer.
 Add a screenshot showing healthy target groups or backend pools.
 
 <![Image12](screenshots/Assignment5_task3-4a.png)>
+
 <![Image12](screenshots/Assignment5_task3-4b.png)>
 
 ---
@@ -366,6 +383,7 @@ Add a screenshot showing successful database reads and writes.
 
 <![Image25](screenshots/Assignment5_task6f.png)>
 
+
 ## Public Application URL
 
 **Public Application URL / DNS:** http://book-review-public-alb-173017032.us-east-1.elb.amazonaws.com/
@@ -403,6 +421,7 @@ Add a screenshot showing one structured architecture or security review result.
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
 <![Image28](screenshots/Assignment5_task7c-a.png)>
+
 <![Image28](screenshots/Assignment5_task7c-b.png)>
 
 ---
