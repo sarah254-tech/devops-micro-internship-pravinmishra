@@ -134,7 +134,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_claudecode-githubcopilot-amazonqdeveloper-share-7488084587663974401-RD3a/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/the-software-development-life-cycle-taught-me-something-about-starting-over-d28a449c09f9 |
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_devops-aws-cloudengineering-share-7494328623253008384-IP-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/this-week-aws-became-my-new-family-meeting-4e5279b54242 |
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-devops-azure-share-7496454103481544704-5JXc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/same-infrastructure-different-clouds-92248fd36fd7 |
-| 08 | Terraform | 🔄 In Progress | 🔄 In Progress |  | https://medium.com/@sarahamadi97/terraform-took-my-devops-takeoff-from-a-runway-sprint-to-a-cruise-4ac1f8728047 |
+| 08 | Terraform | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-terraform-agenticai-share-7503690557601501184-wIjG/ | https://medium.com/@sarahamadi97/terraform-took-my-devops-takeoff-from-a-runway-sprint-to-a-cruise-4ac1f8728047 |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
