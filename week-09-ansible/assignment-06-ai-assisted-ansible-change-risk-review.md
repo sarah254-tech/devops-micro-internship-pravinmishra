@@ -6,9 +6,9 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will build an AI-assisted Ansible risk-review workflow using `ansible-playbook --check --diff`, Bash scripting, and Claude Code.
+In this assignment, I built an AI-assisted Ansible risk-review workflow using `ansible-playbook --check --diff`, Bash scripting, and Claude Code.
 
-You will review possible server changes before applying them, classify risky tasks, and keep the final apply decision under human control.
+I reviewed possible server changes before applying them, classified risky tasks, and kept the final apply decision under human control.
 
 ---
 
@@ -22,19 +22,19 @@ Confirm that your previous EpicBook Ansible project is working before creating t
 
 #### Screenshot 1 — Output of `ansible web -i inventory.ini -m ping`
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment6_task1a.png)>
 
 ---
 
 #### Screenshot 2 — Output of `ansible-playbook -i inventory.ini site.yml --syntax-check`
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment6_task1b.png)>
 
 ---
 
 #### Screenshot 3 — Output of `pwd` and `find . -maxdepth 4 -type d | sort`
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment6_task1c.png)>
 
 ---
 
@@ -44,13 +44,13 @@ Answer the following in your own words:
 
 **1. What proves that Ansible can reach your EpicBook VM?**
 
-Add your answer here.
+    The successful pong response from ansible web -i inventory.ini -m ping proves that Ansible can connect to the EpicBook VM and communicate with it successfully.
 
 ---
 
 **2. Why should you confirm playbook syntax before building a risk-review script?**
 
-Add your answer here.
+    Syntax checking confirms that the Ansible playbook is correctly written before the risk-review script analyzes it. This helps prevent errors in the playbook from being mistaken for risk-review problems.
 
 ---
 
@@ -64,7 +64,9 @@ Create a `CLAUDE.md` file that tells Claude Code how this project must behave.
 
 #### Screenshot 4 — `CLAUDE.md` open in VS Code or terminal showing the safety rules
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment6_task2a-1.png)>
+<![Image4](screenshots/Assignment6_task2a-2.png)>
+<![Image4](screenshots/Assignment6_task2a-3.png)>
 
 ---
 
@@ -74,19 +76,19 @@ Answer the following in your own words:
 
 **1. Why should Claude Code have project-specific safety rules?**
 
-Add your answer here.
+    Project-specific safety rules tell Claude Code what it is allowed and not allowed to do in this environment. They help keep the risk-review process controlled and prevent accidental changes to infrastructure.
 
 ---
 
 **2. Why should the human run the real Ansible playbook manually?**
 
-Add your answer here.
+    The human should make the final decision because the real playbook can change the server. Human approval provides an additional safety check before changes are actually applied.
 
 ---
 
 **3. Which rule prevents Claude Code from applying changes automatically?**
-
-Add your answer here.
+**
+    The rule stating that, **Claude Code must not apply the real Ansible playbook**, prevents it from automatically making changes.
 
 ---
 
@@ -100,7 +102,9 @@ Use Claude Code to produce a read-only plan before writing the Bash script.
 
 #### Screenshot 5 — Claude Code showing the four-category risk-classification plan
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment6_task3-1.png)>
+<![Image5](screenshots/Assignment6_task3-2.png)>
+<![Image5](screenshots/Assignment6_task3-3.png)>
 
 ---
 
@@ -110,19 +114,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+    The Gather phase is collecting evidence from the Ansible project and the --check --diff dry run without applying any changes.
 
 ---
 
 **2. Which part represents the Analyze phase?**
 
-Add your answer here.
+    The Analyze phase is reviewing the gathered evidence and classifying possible changes into the four risk categories.
 
 ---
 
 **3. How did you verify Claude Code did not create or edit files?**
 
-Add your answer here.
+    I gave Claude Code an explicit read-only instruction and told it not to create, edit, or delete files. I also reviewed its output to confirm that it only produced an analysis and did not make project changes
 
 ---
 
@@ -136,25 +140,26 @@ Create a Bash script that runs an Ansible dry run and classifies risky changes.
 
 #### Screenshot 6 — Top section of `ansible-check-review.sh` showing `full_name`, `playbook_path`, `inventory_path`, and the `checks` array
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment6_task4a.png)>
 
 ---
 
 #### Screenshot 7 — Middle section showing `extract_changed_tasks` and `check_tasks_matching_pattern`
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment6_task4b-1.png)>
+<![Image7](screenshots/Assignment6_task4b-2.png)>
 
 ---
 
 #### Screenshot 8 — Bottom section showing the loop, summary, and exit behavior
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment6_task4c.png)>
 
 ---
 
 #### Screenshot 9 — Output of `bash -n ansible-check-review.sh` and `ls -l ansible-check-review.sh`
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment6_task4d.png)>
 
 ---
 
@@ -164,25 +169,25 @@ Answer the following in your own words:
 
 **1. What is stored in the `changed_tasks` array?**
 
-Add your answer here.
+    The changed_tasks array stores the names of Ansible tasks that the dry run reports as changes.
 
 ---
 
 **2. Which function finds changed tasks from the Ansible output?**
 
-Add your answer here.
+    The extract_changed_tasks function finds and stores the changed tasks.
 
 ---
 
 **3. Why does the script use `--check --diff`?**
 
-Add your answer here.
+    --check performs a dry run without applying the changes, while --diff shows the differences Ansible expects to make. Together, they provide evidence for reviewing potential changes before applying them.
 
 ---
 
 **4. Why does the script use different exit codes for healthy, warning, and failed results?**
 
-Add your answer here.
+    Different exit codes allow the result to be understood automatically. A healthy review returns 0, detected changes return 1 for human review, and an Ansible failure returns 2
 
 ---
 
