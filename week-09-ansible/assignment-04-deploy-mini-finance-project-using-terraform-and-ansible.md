@@ -437,7 +437,7 @@ Terraform
 
 #### Screenshot 15 — Published LinkedIn post showing the text and at least one deployment screenshot
 
-<![Inage13](screenshots/Assignment4_task8.png)>
+<![Image15](screenshots/Assignment4&5_Linkedin.png)>
 
 ---
 
@@ -445,7 +445,7 @@ Terraform
 
 Paste your LinkedIn post URL here:
 
-https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-ansible-automation-share-7504248401031725056-Gn8Z/
+https://www.linkedin.com/posts/sarah-w-amadi_devops-terraform-ansible-share-7505938048971620352-HKhw/
 
 ---
 

@@ -581,15 +581,13 @@ Answer the following in your own words:
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+https://www.linkedin.com/posts/sarah-w-amadi_devops-terraform-ansible-share-7505938048971620352-HKhw/
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment4&5_Linkedin.png)>
 
 ---
 
