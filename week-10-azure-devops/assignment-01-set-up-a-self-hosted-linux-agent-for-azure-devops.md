@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will set up a self-hosted Azure DevOps build agent on an Ubuntu VM (AWS or Azure), registering it with a Personal Access Token in a dedicated agent pool, running it as a system service, and verifying it by running a test pipeline.
+In this assignment, I set up a self-hosted Azure DevOps built agent on an Ubuntu VM (AWS or Azure), registered it with a Personal Access Token in a dedicated agent pool, ran it as a system service, and verified it by running a test pipeline.
 
 ---
 
@@ -30,7 +30,7 @@ Create a self-hosted agent pool (e.g. `SelfHostedPool`) in Azure DevOps Organiza
 
 #### Screenshot 1 — Azure DevOps Agent Pools page showing the newly created pool
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task2.png)>
 
 ---
 
@@ -44,13 +44,13 @@ Create an Ubuntu 22.04 (or latest) VM in AWS or Azure with SSH access, and confi
 
 #### Screenshot 2 — Cloud console showing the running Ubuntu VM and its public IP or DNS name
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment1_task3a.png)>
 
 ---
 
 #### Screenshot 3 — Terminal showing a successful SSH login and Ubuntu version details
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment1_task4b.png)>
 
 ---
 
@@ -64,13 +64,13 @@ Download the Linux agent package, register it with your organization/pool/PAT vi
 
 #### Screenshot 4 — Terminal showing successful agent configuration without exposing the PAT
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment1_task4a.png)>
 
 ---
 
 #### Screenshot 5 — Terminal showing the agent service running successfully
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment1_task4b.png)>
 
 ---
 
@@ -84,7 +84,7 @@ Confirm the agent service is running and the agent shows as Online in the Azure 
 
 #### Screenshot 6 — Agent Pool listing showing the registered agent online
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment1_task2.png)>
 
 ---
 
@@ -98,7 +98,9 @@ Create and run a YAML pipeline targeting the self-hosted pool, running `uname -a
 
 #### Screenshot 7 — Successful test pipeline run output in Azure DevOps showing the Linux commands
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment1_task6a.png)>
+<![Image7](screenshots/Assignment1_task6a-2.png)>
+<![Image7](screenshots/Assignment1_task6a-3.png)>
 
 ---
 
@@ -106,7 +108,25 @@ Add your screenshot here.
 
 Note the cloud platform used, your Azure DevOps organization/project name, and the agent pool name. Describe any issue you faced and how you resolved it.
 
-Write your answer here.
+Cloud Platform: Microsoft Azure
+Azure DevOps Organization: Sarahamadi20221
+Azure DevOps Project: demo
+Agent Pool: linux-hosted-agent
+
+Issues Encountered and Resolutions
+
+During the setup and testing of the self-hosted Azure DevOps Linux agent, I encountered a few issues.
+
+1. Incorrect agent pool name in the YAML pipeline
+I initially configured the pipeline with an incorrect agent pool name. As a result, the pipeline could not locate the intended self-hosted agent. I identified the correct pool name, linux-hosted-agent, updated the azure-pipelines.yml file, and committed the correction to the repository.
+
+2. Self-hosted agent connection went offline unexpectedly
+During testing, the connection between the Azure DevOps organization and the Ubuntu self-hosted agent went offline without my knowledge. This resulted in a failed pipeline run because Azure DevOps could not find an available agent to execute the job. I checked the agent status, restored the agent connection/service, and verified that the agent was back online in the linux-hosted-agent pool before running the pipeline again.
+
+3. Pipeline queued because the agent was occupied
+After correcting the pool configuration and reconnecting the agent, a previous pipeline job was still occupying the self-hosted agent. The new pipeline therefore remained queued with Azure DevOps reporting that all potential agents were running other requests. I identified the previous job in the agent pool, cancelled the unnecessary run, and allowed the corrected pipeline to use the available agent.
+
+After resolving these issues, the self-hosted Ubuntu agent was successfully registered with Azure DevOps and used to execute the test pipeline containing uname -a, whoami, and df -h.
 
 ---
 
@@ -119,14 +139,14 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: PAT created with required scopes and stored securely
-- [ ] Task 2: Self-hosted agent pool created (Screenshot 1)
-- [ ] Task 3: Ubuntu VM provisioned and SSH verified (Screenshots 2–3)
-- [ ] Task 4: Agent installed, registered, and running as a service (Screenshots 4–5)
-- [ ] Task 5: Agent verified Online (Screenshot 6)
-- [ ] Task 6: Test pipeline run successfully (Screenshot 7)
-- [ ] Platform/org/pool details and issue notes written (Notes)
-- [ ] No secrets exposed
+- [✅] Task 1: PAT created with required scopes and stored securely
+- [✅] Task 2: Self-hosted agent pool created (Screenshot 1)
+- [✅] Task 3: Ubuntu VM provisioned and SSH verified (Screenshots 2–3)
+- [✅] Task 4: Agent installed, registered, and running as a service (Screenshots 4–5)
+- [✅] Task 5: Agent verified Online (Screenshot 6)
+- [✅] Task 6: Test pipeline run successfully (Screenshot 7)
+- [✅] Platform/org/pool details and issue notes written (Notes)
+- [✅] No secrets exposed
 
 ---
 
