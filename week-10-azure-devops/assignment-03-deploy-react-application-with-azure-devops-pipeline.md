@@ -114,13 +114,13 @@ Publish a LinkedIn post about the completed assignment, mentioning the Build/Tes
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/sarah-w-amadi_devops-azuredevops-cicd-share-7507628948013379584-02oP/
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the text and at least one link or image
 
-Add your screenshot here.
+<![Image-LinkedIn](screenshots/Assignment3_linkedIn.png)>
 
 ---
 
