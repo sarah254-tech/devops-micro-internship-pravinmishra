@@ -1,6 +1,6 @@
 # Assignment 6 — Safety Rails for Your AI Agent
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -128,12 +128,26 @@ Prove the logging hook runs after a successful command execution and records Ter
 <![Image9](screenshots/Assignment6_task8b.png)>
 ---
 
+# Task 9 — Share Your AI Safety Achievement
+
+## Goal
+
+Share how you built safety controls that prevent an AI agent from performing destructive actions.
+
+### Evidence
+
+#### Screenshot 10 — Published post on X or LinkedIn showing your AI safety achievement message and leaderboard progress link visible
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 9 required screenshots
+- All 10 required screenshots
 
 ---
 
@@ -146,6 +160,7 @@ https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [✅ ] `.claude` folder structure created correctly
 - [✅ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
 - [✅ ] `pre-tool-guard.sh` created with PreToolUse hook logic
@@ -159,6 +174,23 @@ https://github.com/sarah254-tech/Ultimate-Agentic-DevOps-with-Claude-Code/
 - [✅] Terraform destroy command test shows PreToolUse intercepted the command
 - [✅ ] Terraform validate test shows PostToolUse created the log entry
 - [✅ ] All required screenshots are captured
+=======
+- [ ] `.claude` folder structure created correctly
+- [ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
+- [ ] `pre-tool-guard.sh` created with PreToolUse hook logic
+- [ ] `post-tool-logger.sh` created with PostToolUse logging logic
+- [ ] `settings.json` created with allow and deny permissions
+- [ ] `settings.json` configured to connect all three hooks:
+  - [ ] UserPromptSubmit
+  - [ ] PreToolUse
+  - [ ] PostToolUse
+- [ ] Destructive prompt test shows UserPromptSubmit blocked the request
+- [ ] Terraform destroy command test shows PreToolUse intercepted the command
+- [ ] Terraform validate test shows PostToolUse created the log entry
+- [ ] AI safety achievement shared on X or LinkedIn
+- [ ] Screenshot of published post with leaderboard progress link visible
+- [ ] All required screenshots are captured
+>>>>>>> upstream/main
 
 ---
 
@@ -182,4 +214,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

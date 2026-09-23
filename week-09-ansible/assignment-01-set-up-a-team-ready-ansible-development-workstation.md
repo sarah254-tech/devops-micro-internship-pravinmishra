@@ -1,6 +1,6 @@
 # Assignment 01 — Set Up a Team-Ready Ansible Development Workstation
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -202,8 +202,6 @@ Confirm that the following files are included in your assignment workspace:
 - All screenshots must be readable.
 - Answer all assignment questions clearly in your own words.
 - Do not expose SSH private-key contents, passwords, access tokens, API keys, credentials, private certificates, or other sensitive information.
-- Submit only your Google Doc link.
-- Ensure that anyone with the link can view the document.
 
 ---
 
@@ -261,4 +259,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
