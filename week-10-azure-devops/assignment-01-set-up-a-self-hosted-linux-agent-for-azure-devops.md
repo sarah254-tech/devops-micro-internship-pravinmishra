@@ -76,7 +76,7 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-<![Image3](screenshots/Assignment1_task4b.png)>
+<![Image3](screenshots/Assignment1_task3b.png)>
 
 ---
 
@@ -97,7 +97,7 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-<![Image4](screenshots/Assignment1_task4a.png)>
+<![Image3](screenshots/Assignment1_task4a.png)>
 
 ---
 
@@ -126,7 +126,7 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-<![Image6](screenshots/Assignment1_task2.png)>
+<![Image4](screenshots/Assignment1_task2.png)>
 
 ---
 
@@ -236,8 +236,6 @@ Add a screenshot of your LinkedIn post showing:
 * Why organizations use self-hosted agents
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
-
-Add your screenshot here.
 
 <![Image](screenshots/Assignment1_task6a-2.png)>
 
