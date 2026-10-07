@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this assignment, you will build both a single-stage and an optimized multi-stage Docker image for a React application, compare the resulting image sizes, and deploy the optimized version using a production-ready Nginx runtime container.
+In this assignment, I built both a single-stage and an optimized multi-stage Docker image for a React application, compared the resulting image sizes, and deployed the optimized version using a production-ready Nginx runtime container.
 
 Complete this assignment locally on your own computer where Docker is installed and running.
 
@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment2_task1.png)>
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment2_task2a.png)>
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+<![Image](screenshots/Assignment2_task2b.png)>
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment2_task3a.png)>
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment2_task3b.png)>
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment2_task4.png)>
 
 ---
 
@@ -134,7 +134,13 @@ Percentage reduction =
 ((Single-stage image size − Multi-stage image size)
 ÷ Single-stage image size) × 100
 
-Percentage reduction: Add result here
+Percentage reduction: Single-stage image size: 883 MB
+
+Multi-stage image size: 95 MB
+
+Image size reduction: 788 MB
+
+Percentage reduction: 89.24%
 ```
 
 ---
@@ -156,7 +162,7 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+The single-stage image was 883 MB, while the multi-stage image was only 95 MB. This represents an 89.24% reduction, saving approximately 788 MB of image size. The multi-stage build keeps Node.js, npm, and build dependencies in the builder stage instead of including them in the production image. The smaller Nginx runtime also reduces the number of unnecessary components and therefore reduces the potential attack surface. A smaller image requires less data to download, which can improve image pull and deployment times. I also used Docker build caching by copying package*.json and running npm ci before copying the application source cod
 
 ---
 
@@ -175,7 +181,9 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
-Screenshots are optional.
+Nginx Health Check: I added a Docker health check to the production Nginx runtime stage. The health check periodically sends a request to the Nginx root endpoint and reports the container as healthy when the application responds successfully. This provides a simple way to distinguish between a running container and a functioning application. The optimization adds production observability without significantly increasing the image size.
+
+<![Image7](screenshots/Assignment2_task6.png)>
 
 ---
 
@@ -191,13 +199,13 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/sarah-w-amadi_devops-share-7513604124517683201-jUdf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+<![Image](screenshots/Assignment2_Linkedin.png)>
 
 ---
 

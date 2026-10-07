@@ -4,7 +4,7 @@
 
 ## Purpose
 
-In this assignment, you will provision a cloud virtual machine on AWS or Azure, automate Docker installation using Cloud-Init, containerize a static website using Docker and Nginx, and deploy it so that it is accessible through the VM public IP address.
+In this assignment, I will provisioned a cloud virtual machine on Azure, automated Docker installation using Cloud-Init, containerized a static website using Docker and Nginx, and deployed it so that it is accessible through the VM public IP address.
 
 > Choose either AWS or Azure. You do not need to complete the assignment on both platforms.
 
@@ -28,7 +28,7 @@ Add a screenshot of the cloud console showing:
 - SSH port 22 enabled from your IP address
 - HTTP port 80 enabled from Anywhere
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment1_task1.png)>
 
 ---
 
@@ -50,7 +50,7 @@ cat /var/log/cloud-init-output.log
 
 The visible output must show Docker installation activity.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment1_task2.png)>
 
 ---
 
@@ -76,7 +76,7 @@ and
 docker ps
 ```
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment1_task3.png)>
 
 ---
 
@@ -92,7 +92,7 @@ Download the static website source code.
 
 Add a screenshot of the terminal showing the contents of the `Azure-Static-Website` project directory after cloning the repository.
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment1_task4.png)>
 
 ---
 
@@ -114,7 +114,7 @@ cat Dockerfile
 
 The Dockerfile must use `nginx:alpine`, copy the website files to the Nginx web root, and expose port 80.
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment1_task5.png)>
 
 ---
 
@@ -136,7 +136,7 @@ docker images
 
 The output must include the `static-site` image with the `latest` tag.
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment1_task6.png)>
 
 ---
 
@@ -162,7 +162,7 @@ The output must show the running `static-site` container with the port mapping:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<![Image](screenshots/Assignment1_task7.png)>
 
 ---
 
@@ -182,7 +182,7 @@ Add a screenshot of the terminal showing the output of:
 curl ifconfig.me
 ```
 
-Add your screenshot here.
+<![Image](screenshots/Assignment1_task8.png)>
 
 ---
 
@@ -192,13 +192,13 @@ Add a screenshot of the browser showing the deployed static website.
 
 Ensure that the VM public IP address is visible in the browser address bar.
 
-Add your screenshot here.
+<1[Image](screenshots/Assignment1_task9.png)>
 
 ---
 
 # Public Application URL
 
-**VM Public IP / Application URL:** `Add your application URL here`
+**VM Public IP / Application URL:** http://40.121.8.188
 
 ---
 
@@ -210,11 +210,11 @@ Create a LinkedIn post describing what you deployed, the deployment process, and
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn Post URL here`
+**LinkedIn Post URL:** https://www.linkedin.com/posts/sarah-w-amadi_devops-share-7513604124517683201-jUdf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+<1[Image](screenshots/Assignment1_LinkedIn.png)>
 
 ---
 
