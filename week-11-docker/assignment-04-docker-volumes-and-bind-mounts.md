@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this assignment, you will use Docker Bind Mounts and Docker Volumes to persist logs and application data outside a container’s lifecycle. You will verify that data remains available after containers are removed and recreated.
+In this assignment, I used Docker Bind Mounts and Docker Volumes to persist logs and application data outside a container’s lifecycle. I verified that data remains available after containers are removed and recreated.
 
 ---
 
@@ -26,7 +26,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment4_task1a.png)>
 
 ---
 
@@ -38,7 +38,7 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment4_task1b.png)>
 
 ---
 
@@ -56,7 +56,7 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment4_task1c.png)>
 
 ---
 
@@ -65,12 +65,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://40.121.8.188/
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment4_task1d.png)>
 
 ---
 
@@ -84,7 +84,7 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment4_task1e.png)>
 
 ---
 
@@ -97,7 +97,7 @@ docker stop myweb
 docker rm myweb
 ```
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment4_task1f.png)>
 
 ---
 
@@ -111,7 +111,7 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment4_task1g.png)>
 
 ---
 
@@ -127,7 +127,7 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment4_task2a.png)>
 
 ---
 
@@ -139,7 +139,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment4_task2b.png)>
 
 ---
 
@@ -151,7 +151,7 @@ Add a screenshot of the terminal showing `shared-data` in:
 docker volume ls
 ```
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment4_task2c.png)>
 
 ---
 
@@ -159,7 +159,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment4_task2d.png)>
 
 ---
 
@@ -167,7 +167,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+<![Image12](screenshots/Assignment4_task2e.png)>
 
 ---
 
@@ -181,7 +181,7 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+<![Image13](screenshots/Assignment4_task2f.png)>
 
 ---
 
@@ -189,7 +189,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+<![Image14](screenshots/Assignment4_task2g.png)>
 
 ---
 
@@ -197,7 +197,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment4_task2h.png)>
 
 ---
 
@@ -215,7 +215,7 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<![Image16](screenshots/Assignment4_task2i.png)>
 
 ---
 
@@ -229,7 +229,7 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+<![Image17](screenshots/Assignment4_task2j.png)>
 
 ---
 
@@ -243,7 +243,7 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image18](screenshots/Assignment4_task2k.png)>
 
 ---
 
@@ -257,7 +257,7 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image19](screenshots/Assignment4_task2l.png)>
 
 ---
 
@@ -271,7 +271,7 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image20](screenshots/Assignment4_task2m.png)>
 
 ---
 
@@ -279,7 +279,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
+<![Image21](screenshots/Assignment4_task2n.png)>
 
 ---
 
@@ -295,7 +295,7 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image22](screenshots/Assignment4_task2o.png)>
 
 ---
 
@@ -308,13 +308,31 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+
+
+### 1. Difference Between a Bind Mount and a Docker Volume
+
+A Bind Mount connects a specific directory on the host machine to a directory inside a container. In Task 1, the host directory `$HOME/nginx-logs` was mounted to `/var/log/nginx` inside the Nginx container.
+
+A Docker Volume is storage managed by Docker independently of individual containers. In Task 2, the named volume `shared-data` was mounted into both the backend and frontend containers at `/shared-data`.
+
+### 2. How Task 1 Proved Bind Mount Persistence
+
+I deployed an Nginx container using a bind mount to store its log files on the VM host. After accessing the Nginx welcome page, I verified that `access.log` contained the request. I then stopped and removed the container and confirmed that the log files and their contents remained in `$HOME/nginx-logs`.
+
+### 3. How Task 2 Proved Docker Volume Persistence
+
+I created a named volume called `shared-data` and mounted it into both application containers. The backend wrote messages such as `Hello from Backend!` and `Test Data 2 - New Update` to the shared file, while the frontend displayed the same data in the browser. After removing and recreating both containers with the same volume, the latest message remained available, proving that the data survived the containers' lifecycles.
+
+### 4. Why Docker Volumes Are Commonly Used for Application Data
+
+Docker Volumes are commonly used because they keep application data separate from container lifecycles, allow multiple containers to share data, and make persistent storage easier to manage. This is useful for application files, uploaded documents, and database data that must remain available when containers are updated, removed, or recreated.
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** http://40.121.8.188/
 
 ---
 
@@ -330,13 +348,13 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/sarah-w-amadi_docker-cloudinfrastructure-containerization-share-7515348167807336448-jDvB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here. Include a screenshot of the application displaying shared data.
+<![ImageLinkedIn](screenshots/Assignment3_LinkedIn.png)>
 
 ---
 
