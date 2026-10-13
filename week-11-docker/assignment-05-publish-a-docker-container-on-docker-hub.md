@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this assignment, you will publish a Dockerized React application to Docker Hub, remove the local image tags, pull the image again from Docker Hub, and run it to verify that it can be downloaded and deployed from a container registry.
+In this assignment, I published a Dockerized React application to Docker Hub, removed the local image tags, pulled the image again from Docker Hub, and ran it to verify that it can be downloaded and deployed from a container registry.
 
 ---
 
@@ -26,7 +26,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment5_task1a.png)>
 
 ---
 
@@ -40,7 +40,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment5_task1b.png)>
 
 ---
 
@@ -54,7 +54,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment5_task1c.png)>
 
 ---
 
@@ -68,7 +68,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment5_task1d.png)>
 
 ---
 
@@ -76,7 +76,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment5_task1e.png)>
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment5_task1f.png)>
 
 ---
 
@@ -106,7 +106,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment5_task1g.png)>
 
 ---
 
@@ -115,18 +115,18 @@ Add your screenshot here.
 Add a browser screenshot showing the React application at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://40.121.8.188
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment5_task1h.png)>
 
 ---
 
 # Docker Hub Repository URL
 
-**Repository URL:** `Add your Docker Hub repository URL here`
+**Repository URL:** https://hub.docker.com/repository/docker/dockerhub254/
 
 ---
 
@@ -138,7 +138,18 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+
+**1. Why is image tagging required before pushing to Docker Hub?**
+
+Image tagging assigns an identifiable name and version to a Docker image. It tells Docker where to publish the image and which repository and tag to use. For example, `dockerhub254/my-react-app:latest` identifies the image, repository, and tag.
+
+**2. Why is a container registry useful in DevOps workflows?**
+
+A container registry such as Docker Hub stores and distributes Docker images. It allows development, testing, and production environments to access the same packaged application, supporting consistent deployments and automated CI/CD pipelines.
+
+**3. Why should production deployments use versioned tags instead of relying only on `latest`?**
+
+The `latest` tag can point to different image versions over time, making it difficult to identify exactly what is running in production. Versioned tags, such as `v1.0.0` or `v1.1.0`, make deployments easier to track, reproduce, and roll back when problems occur. They improve traceability and reduce the risk of unexpected updates.
 
 ---
 
@@ -162,13 +173,13 @@ Include:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-share-7515732327738675201-woiV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+<![Image_LinkedIn](screenshots/Assignment5_LinkedIn.png)>
 
 ---
 

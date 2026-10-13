@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this assignment, you will deploy the Book Review Application with Docker Compose using MySQL, a backend API, and a frontend user interface. You will configure health-gated startup, browser-facing API access, CORS, and persistent MySQL storage.
+In this assignment, I deployed the Book Review Application with Docker Compose using MySQL, a backend API, and a frontend user interface. I configured health-gated startup, browser-facing API access, CORS, and persistent MySQL storage.
 
 ---
 
@@ -30,7 +30,7 @@ backend/
 docker-compose.yml
 ```
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment6_task1a.png)>
 
 ---
 
@@ -47,7 +47,7 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment6_task1b.png)>
 
 ---
 
@@ -63,7 +63,7 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment6_task2a.png)>
 
 ---
 
@@ -71,7 +71,7 @@ Add your screenshot here.
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment6_task2b.png)>
 
 ---
 
@@ -83,7 +83,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment6_task2c.png)>
 
 ---
 
@@ -105,7 +105,7 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment6_task3a.png)>
 
 ---
 
@@ -118,7 +118,7 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment6_task3b.png)>
 
 ---
 
@@ -130,7 +130,7 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment6_task3c.png)>
 
 ---
 
@@ -138,7 +138,7 @@ Add your screenshot here.
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment6_task3c.png)>
 
 ---
 
@@ -160,7 +160,7 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment6_task4a.png)>
 
 ---
 
@@ -174,7 +174,7 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment6_task4b.png)>
 
 ---
 
@@ -192,7 +192,7 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image12](screenshots/Assignment6_task5a.png)>
 
 ---
 
@@ -202,7 +202,7 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image13](screenshots/Assignment6_task5b.png)>
 
 ---
 
@@ -213,7 +213,7 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+<![Image14](screenshots/Assignment6_task5c.png)>
 
 ---
 
@@ -231,7 +231,7 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment6_task6a.png)>
 
 ---
 
@@ -247,7 +247,7 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+<![Image16](screenshots/Assignment6_task6b.png)>
 
 ---
 
@@ -257,7 +257,7 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<![Image17](screenshots/Assignment6_task6c.png)>
 
 ---
 
@@ -271,19 +271,38 @@ Explain the difference between preserving data and fully resetting a Docker Comp
 
 Write a short explanation of 5–8 lines covering:
 
-- What `docker compose down` removes and preserves
-- Why named volumes should be kept when preserving MySQL data
-- What happens when named volumes are removed
-- When a full reset is useful
-- Why a full reset must not be used before persistence evidence is captured
+### What `docker compose down` removes and preserves
 
-Write your explanation here.
+`docker compose down` stops and removes the containers and the Compose network, but preserves named volumes by default.  
+Named volumes store MySQL data separately from the database container, allowing the data to survive container removal and recreation.  
+Running `docker compose down -v` also removes Compose-managed named volumes, which can permanently delete the stored database data.  
+A full reset is useful when you intentionally want to start an application with a clean database.  
+However, removing volumes before capturing persistence evidence destroys the data needed for the test.  
+For this assignment, use `docker compose down` without `-v`, then start the services again and verify that the same review remains.
+
+### Why named volumes should be kept when preserving MySQL data
+
+Named volumes store MySQL data independently of the container, allowing the database records to survive when containers are removed and recreated.
+
+### What happens when named volumes are removed
+
+The stored database data is deleted, potentially causing permanent data loss.
+
+### When a full reset is useful
+
+A full reset is useful when intentionally starting the application with a clean database, such as during development or testing.
+
+### Why a full reset must not be used before persistence evidence is captured
+
+Removing the volume would destroy the data we need to prove survives a restart, making it impossible to demonstrate that the existing records were preserved.
+
+
 
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** http://40.121.8.188:3000
 
 Replace the placeholder with your working application URL.
 
@@ -291,7 +310,7 @@ Replace the placeholder with your working application URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** https://github.com/sarah254-tech
 
 ---
 
@@ -303,11 +322,11 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://www.linkedin.com/posts/sarah-w-amadi_dmibypravinmishra-share-7515732327738675201-woiV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of your published LinkedIn post here.
+<![Image_LinkedIn](screenshots/Assignment6_LinkedIn.png)>
 
 ---
 
