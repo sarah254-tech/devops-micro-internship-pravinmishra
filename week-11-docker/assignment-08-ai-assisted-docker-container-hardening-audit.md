@@ -6,13 +6,13 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this assignment, you will build a read-only Bash script that audits a running Docker container for common hardening gaps — running as root, missing health checks, unpinned image tags, privileged mode, and unnecessary exposed ports — then connect that script to Claude Code as a reusable `/docker-audit` skill. You will run the audit against your production-grade EpicBook stack, fix what it finds by editing the Dockerfile yourself, rebuild the image, and re-run the audit to prove the fix worked. Claude analyzes evidence and recommends a fix; it never edits your Dockerfile or rebuilds the image itself.
+In this assignment, I built a read-only Bash script that audits a running Docker container for common hardening gaps — running as root, missing health checks, unpinned image tags, privileged mode, and unnecessary exposed ports — then connect that script to Claude Code as a reusable `/docker-audit` skill. I ran the audit against my production-grade EpicBook stack, fixed what it found by editing the Dockerfile myself, rebuilt the image, and re-ran the audit to prove the fix worked. Claude analyzes evidence and recommends a fix; it never edits my Dockerfile or rebuilds the image itself.
 
 ---
 
 # Target Container
 
-**Target Container Name:** `Add the exact container name here`
+**Target Container Name:** theepicbook-reverse-proxy-1
 
 ---
 
@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment8_task1.png)>
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment8_task2.png)>
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment8_task3.png)>
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment8_task4.png)>
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+<![Imag5](screenshots/Assignment8_task4b.png)>
 
 ---
 
@@ -119,7 +119,9 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+<![Imag6](screenshots/Assignment8_task5a.png)>
+<![Imag6](screenshots/Assignment8_task5b.png)>
+<![Imag6](screenshots/Assignment8_task5c.png)>
 
 ---
 
@@ -135,7 +137,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+<![Imag5](screenshots/Assignment8_task4b.png)>
 
 ---
 
@@ -143,7 +145,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+<![Imag5](screenshots/Assignment8_task4b.png)>
 
 ---
 
@@ -163,7 +165,7 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+<![Imag5](screenshots/Assignment8_task4b.png)>
 
 ---
 
@@ -176,7 +178,11 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+
+- **Initial audit finding:** The `theepicbook-reverse-proxy-1` container was configured to run as root by default. The audit also confirmed that privileged mode was disabled and a health check was configured.
+- **Hardening change applied:** I manually changed the Nginx Dockerfile to use `nginxinc/nginx-unprivileged:alpine`, which runs as UID 101. I updated Nginx to listen on port 8080 and adjusted the Compose port mapping to `80:8080`. I also corrected the health-check URL and configured a dedicated log directory for the unprivileged container.
+- **Final audit result:** The container was recreated and reached `healthy` status. A Claude Code audit subsequently identified the reverse proxy as running under UID 101. 
+- **Security benefit:** Running Nginx as a non-root user reduces the privileges available to the process if it is compromised. Keeping the health check functional also helps Docker detect when the service is not responding as expected.
 
 ---
 
@@ -188,13 +194,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://www.linkedin.com/posts/sarah-w-amadi_devops-docker-containersecurity-share-7518611155045765120-mNnC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+<![Image_LinkedIn](screenshots/Assignment8_LinkedIn.png)>
 
 ---
 
