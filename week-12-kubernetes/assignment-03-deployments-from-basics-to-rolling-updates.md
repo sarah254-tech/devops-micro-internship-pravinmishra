@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-Create an NGINX Deployment, configure RollingUpdate, update the container image, roll back to the previous revision, and scale the workload.
+Created an NGINX Deployment, configured RollingUpdate, updated the container image, rolled back to the previous revision, and scaled the workload.
 
 ---
 
@@ -32,7 +32,7 @@ Create and enter the dedicated Deployment lab directory.
 
 #### Screenshot 01 — Output of `pwd` showing the directory ending in `/k8s-labs/deployments`
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment3_task1.png)>
 
 ---
 
@@ -46,13 +46,13 @@ Create a two-replica NGINX Deployment and verify the automatically managed Repli
 
 #### Screenshot 02 — Completed basic `nginx-deployment.yaml` showing two replicas and the initial NGINX image
 
-Add your screenshot here.
+<![Image2](screenshots/Assignment3_task2a.png)>
 
 ---
 
 #### Screenshot 03 — Successful apply output and verification output showing the Deployment, its automatically created ReplicaSet, and two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment3_task2b.png)>
 
 ---
 
@@ -66,13 +66,13 @@ Configure RollingUpdate to maintain the desired available replica count during a
 
 #### Screenshot 04 — Updated YAML showing `RollingUpdate`, `maxSurge: 1`, and `maxUnavailable: 0`
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment3_task3a.png)>
 
 ---
 
 #### Screenshot 05 — Successful apply output and Deployment details showing the configured rolling-update strategy
 
-Add your screenshot here.
+<![Image5](screenshots/Assignment3_task3b.png)>
 
 ---
 
@@ -86,25 +86,25 @@ Update NGINX to 1.23.1, observe the rollout, and return to the previous stable r
 
 #### Screenshot 06 — Image-update command and rollout status showing successful completion
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment3_task4a.png)>
 
 ---
 
 #### Screenshot 07 — ReplicaSet output showing the previous and updated ReplicaSets, and Deployment details showing `nginx:1.23.1`
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment3_task4b.png)>
 
 ---
 
 #### Screenshot 08 — Rollback command and rollout status showing successful completion
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment3_task4c.png)>
 
 ---
 
 #### Screenshot 09 — Rollout history and Deployment details showing the restored `nginx:1.21.1` image
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment3_task4d.png)>
 
 ---
 
@@ -118,13 +118,13 @@ Scale the workload to five replicas and return it to two.
 
 #### Screenshot 10 — Scale-up command and output showing five Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment3_task5a.png)>
 
 ---
 
 #### Screenshot 11 — Scale-down command and output showing the final two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<![Image11](screenshots/Assignment3_task5b.png)>
 
 ---
 
@@ -154,7 +154,7 @@ Today, I deployed NGINX, configured rolling updates, updated the container image
 
 I also scaled my Deployment from two Pods to five and back to two!
 
-[PASTE YOUR GENERATED LEADERBOARD MESSAGE AND LINK HERE]
+
 
 #DMIByPravinMishra #DevOps #Kubernetes
 
@@ -162,7 +162,7 @@ I also scaled my Deployment from two Pods to five and back to two!
 
 #### Screenshot 12 — Published WhatsApp Status showing your Kubernetes Deployment message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+
 
 A draft or editing screen is not sufficient.
 
@@ -172,7 +172,7 @@ A draft or editing screen is not sufficient.
 
 Write a short note explaining how Deployments manage ReplicaSets, perform rolling updates and rollbacks, and scale Pods.
 
-Add your answer here.
+In this project, I learned how Kubernetes Deployments manage application updates and availability. A Deployment creates and manages ReplicaSets, which ensure the required number of Pods are running. I also learned how to perform rolling updates to introduce a new application version gradually, roll back to a previous stable version when needed, and scale Pods up or down by changing the desired replica count. This project helped me understand how Kubernetes maintains the desired state of an application while making deployments more reliable and easier to manage.
 
 ---
 
