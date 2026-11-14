@@ -262,11 +262,11 @@ Share what you learned about Kubernetes readiness probes and how they protect ro
 
 #### Screenshot 18 — Published LinkedIn post
 
-
+<![LinkedIn_Image](screenshots/Assignment5,6,7_LinkedIn.png)>
 
 #### Linkedin post link
 
-
+https://www.linkedin.com/posts/sarah-w-amadi_devops-kubernetes-cloudnative-share-7527423354450964481--8h3/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 

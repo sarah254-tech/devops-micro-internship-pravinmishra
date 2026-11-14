@@ -139,8 +139,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_check-out-this-image-share-7477748520637222913-SoGK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
  | https://medium.com/@sarahamadi97/the-day-troubleshooting-stopped-feeling-like-failure-5ac4a98b023c |
 | 11 | Docker | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/sarah-w-amadi_devops-share-7513604124517683201-jUdf/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | https://medium.com/@sarahamadi97/docker-drama-and-the-art-of-keeping-things-running-from-my-first-container-to-production-ready-c90943ecf52f |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Final Project | 🔄 In Progress| 🔄 In Progress | https://www.linkedin.com/posts/sarah-w-amadi_kubernetes-devops-autoscaling-share-7527067862792994816-ox-c/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | — |
+| 12 | Kubernetes | 🔄 In Progress| 🔄 In Progress | https://www.linkedin.com/posts/sarah-w-amadi_devops-kubernetes-cloudnative-share-7527423354450964481--8h3/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA | — |
+| 13 | Final Project | 🔄 In Progress| 🔄 In Progress | — | — |
 
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
