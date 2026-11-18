@@ -12,19 +12,21 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 ## Submission Details
 
-**Full Name:** Add your full name here.
+**Full Name:** Sarah W Amadi.
 
-**Kubernetes Platform:** Add your platform here.
+**Kubernetes Platform:** Microsoft Azure Kubernetes Service (AKS)
 
 **Namespace:** book-review
 
-**Frontend URL or IP:** Add the working endpoint here.
+**Frontend URL or IP:** http://20.22.39.50
 
-**Access Method:** Public LoadBalancer, Ingress, or documented local access.
+**Access Method:** Public Kubernetes LoadBalancer Service exposing the frontend on port 80. Backend and MySQL services remain accessible internally through ClusterIP Services.
 
-**GitHub Manifests or Helm Chart URL:** Add your repository link here.
+**GitHub Manifests or Helm Chart URL:** https://github.com/sarah254-tech/book-review-app
 
-**Architecture Diagram:** Add your diagram or link here.
+**Architecture Diagram:** Three-tier Book Review application architecture on AKS, illustrating the Next.js/Nginx frontend, Node.js/Express backend, MySQL StatefulSet, Kubernetes Services and persistent storage. See attached architecture diagram.
+
+<![Image3](screenshots/Assignment10_task2.png)>
 
 ---
 
@@ -38,7 +40,7 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+<![Image1](screenshots/Assignment10_task1.png)>
 
 ---
 
@@ -46,7 +48,7 @@ Add your screenshot here.
 
 Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
-Add your screenshot here, or write “Not applicable — using YAML manifests.”
+Not applicable — using YAML manifests.
 
 ---
 
@@ -60,7 +62,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+<![Image3](screenshots/Assignment10_task2.png)>
 
 ---
 
@@ -74,14 +76,13 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+<![Image4](screenshots/Assignment10_task3a.png)>
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
-
+<![Image5](screenshots/Assignment10_task3b.png)>
 ---
 
 # Task 4 — Deploy and Configure the MySQL Data Tier
@@ -94,13 +95,13 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+<![Image6](screenshots/Assignment10_task4a.png)>
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+<![Image7](screenshots/Assignment10_task4b.png)>
 
 ---
 
@@ -114,7 +115,7 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
+<![Image8](screenshots/Assignment10_task5a.png)>
 
 ---
 
@@ -122,7 +123,7 @@ Add your screenshot here.
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+<![Image9](screenshots/Assignment10_task5b.png)>
 
 ---
 
@@ -136,14 +137,13 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+<![Image10](screenshots/Assignment10_task6a.png)>
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
-
+<![Image11](screenshots/Assignment10_task6b.png)>
 ---
 
 # Task 7 — Configure External and Internal Networking
@@ -156,13 +156,14 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+<![Image12](screenshots/AssIgnment10_task7a.png)>
+
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+<![Image13](screenshots/Assignment10_task7b.png)>
 
 ---
 
@@ -176,31 +177,31 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+<![Image14](screenshots/Assignment10_task8a.png)>
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+<![Image15](screenshots/Assignment10_task8b.png)>
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+<![Image16](screenshots/Assignment10_task8c.png)>
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+<![Image17](screenshots/Assignment10_task8d.png)>
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+ Not attempted.
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -216,7 +217,7 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
-Add your screenshot here, or write “Not attempted.”
+Not attempted. Existing deployment includes health probes, resource requests and limits, persistent storage, ConfigMaps and Secrets.
 
 ---
 
@@ -230,11 +231,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+<![Image20](screenshots/Assignment10_LinkedInPost.png)>
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+https://www.linkedin.com/posts/sarah-w-amadi_devops-kubernetes-azure-share-7528820308997492736-G4XI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAx4n8Bvuf305sZ28vfr5yvaoLLEr0SkSA
 
 ---
 
@@ -242,33 +243,86 @@ Add your published LinkedIn post URL here.
 
 ## What Worked
 
-Describe the application components and user flows you successfully deployed and tested.
+Successfully deployed a full-stack Book Review application on Microsoft Azure Kubernetes Service (AKS) using a three-tier architecture.
 
-Add your summary here.
+The deployment consists of:
+- **Frontend:** Next.js application served through Nginx, exposed publicly through a Kubernetes LoadBalancer Service.
+- **Backend:** Node.js and Express REST API deployed internally through a ClusterIP Service.
+- **Database:** MySQL deployed using a StatefulSet with persistent storage provisioned through a PersistentVolumeClaim.
+
+Implemented Kubernetes Deployments, StatefulSets, Services, ConfigMaps, Secrets, health probes, resource requests and limits, and persistent storage.
+
+Validated application availability through the public frontend endpoint (`http://20.22.39.50`), confirmed successful user authentication and book listing functionality, and verified that the backend and database services remained internally accessible.
 
 ## Issues and Fixes
 
-Describe the main issues encountered, their causes, and how you resolved them.
+Several infrastructure and application-level issues were identified and resolved during implementation:
 
-Add your summary here.
+- **Container image authentication:** Resolved GitHub Container Registry image-pull failures by configuring the container packages for public access and verifying anonymous image pulls.
+- **Insufficient CPU scheduling:** Investigated a Pending frontend Pod caused by insufficient node CPU capacity during a rolling update and adjusted container resource requests to enable successful scheduling.
+- **CORS configuration:** Diagnosed registration failures caused by the backend rejecting the public frontend origin and configured the `ALLOWED_ORIGINS` environment variable in the Kubernetes Deployment.
+- **Application validation:** Used Kubernetes events, deployment configurations and application logs to distinguish infrastructure health from actual application functionality.
+
+The project reinforced the importance of systematic troubleshooting across infrastructure, networking and application layers.
 
 ## Tools and Sources Used
 
-List the documentation and tools that helped you complete the assignment.
+**Cloud and Infrastructure**
+- Microsoft Azure
+- Azure Kubernetes Service (AKS)
+- Azure Managed Disks
 
-Add your tools and sources here.
+**Containerisation and Orchestration**
+- Docker
+- Kubernetes
+- Kubernetes YAML manifests
+- GitHub Container Registry (GHCR)
+
+**Application Stack**
+- Next.js
+- Node.js
+- Express.js
+- MySQL
+- Nginx
+
+**Configuration and Validation**
+- ConfigMaps and Secrets
+- PersistentVolumes and PersistentVolumeClaims
+- Kubernetes Deployments, StatefulSets and Services
+- Startup, readiness and liveness probes
+- `kubectl` for deployment management, troubleshooting and validation
+- Azure CLI for Azure resource management
+- Git and GitHub for source control
+
+**Documentation and References**
+- Kubernetes official documentation: https://kubernetes.io/docs/
+- Microsoft AKS documentation: https://learn.microsoft.com/azure/aks/
+- Docker documentation: https://docs.docker.com/
+- Nginx documentation: https://nginx.org/en/docs/
 
 ## Optional Improvements
 
-Describe any optional improvements implemented, or write “Not attempted.”
+Additional production enhancements were not implemented as part of this deployment.
 
-Add your summary here.
+Potential next steps include:
+- HTTPS/TLS termination for secure external communication.
+- Horizontal Pod Autoscaling (HPA).
+- Kubernetes NetworkPolicies for stronger workload isolation.
+- Centralised monitoring and logging using Prometheus, Grafana and Loki.
+- Automated CI/CD pipelines for application builds and Kubernetes deployments.
+- Ingress-based traffic management.
+
+The current implementation provides a foundation for these enhancements.
 
 ## Cleanup or Reuse Plan
 
-State which resources were removed or why the environment is being retained.
+**Environment retained for reuse.**
 
-Add your cleanup status or reuse plan here.
+The AKS cluster, Kubernetes namespace, application workloads, LoadBalancer Service, persistent MySQL storage and supporting Azure resources have been retained for continued testing, demonstration and future improvements.
+
+No destructive cleanup has been performed.
+
+The environment will be reused for further Kubernetes exercises, production-readiness enhancements and CI/CD integration. Azure resource costs will be monitored while the environment remains active.
 
 ---
 
